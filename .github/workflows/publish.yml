@@ -23,17 +23,19 @@ jobs:
       - name: Set up GPG key
         run: |
           echo "GPG_SIGNING_KEY content: $GPG_SIGNING_KEY"
-          gpg --list-secret-keys
-          echo "Key imported"
+          GPG_KEY=$(gpg --list-secret-keys --keyid-format LONG | awk '/^sec/ {print $2}' | head -n 1)
+          echo "GPG_KEY: $GPG_KEY"
+          echo "GPG_KEY=$GPG_KEY" >> $GITHUB_ENV
         env:
           GPG_SIGNING_KEY: ${{ secrets.PGP }}
-          
+
       - name: Run download and upload script
         run: |
           chmod +x latest.sh
-          ./latest.sh
+          GPG_KEY=$GPG_KEY ./latest.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GPG_KEY: ${{ secrets.PGP }}
 
       - name: Set Git user identity
         run: |
