@@ -42,7 +42,8 @@ repositories=(
     "ginsudev/YTMusicUltimate"
     "dayanch96/InfusePlus"
     "dayanch96/BHTikTok-Plus"
-    "khanhduytran0/TrollPad" 
+    "khanhduytran0/TrollPad"
+    "khanhduytran0/CAPerfHUD"
 )
 
 # Crear la estructura de directorios
