@@ -139,6 +139,23 @@ Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
 
+Package: com.kdt.caperfhudmodule
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Control Center (Modules)
+Maintainer: khanhduytran0
+Installed-Size: 260
+Depends: com.opa334.ccsupport, firmware (>= 13.0)
+Filename: ./pool/iphoneos-arm/com.kdt.caperfhudmodule_1.0.0_iphoneos-arm.deb
+Size: 20542
+MD5sum: 179ca68d838827d25db0d96d7d66fafa
+SHA1: 15f8cdc8e510efe441d8993c756cb578da663914
+SHA256: 9aad11b2e5c121d27a993823a3de1ce8aa032ff8ecfe40543982620482f033c4
+SHA512: b5a5ca5e5a3c306cc6c07615c6bf004a6be664b18a70c915ebc13fe7769ac2e2c95c86ecf51fba212b3de3fd954d6c07042273829c6f22d1c5f7cee231e6babc
+Description: Enable system-wide performance HUD from the control center.
+Name: CAPerfHUDModule
+Author: khanhduytran0
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.12
@@ -297,6 +314,23 @@ Name: YTMusicUltimate
 Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.kdt.caperfhudmodule
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Control Center (Modules)
+Maintainer: khanhduytran0
+Installed-Size: 260
+Depends: com.opa334.ccsupport, firmware (>= 13.0)
+Filename: ./pool/iphoneos-arm64/com.kdt.caperfhudmodule_1.0.0_iphoneos-arm64.deb
+Size: 20454
+MD5sum: 50c8a705631e7cd6072ec05dd4f8ea2c
+SHA1: af15ba6a3291cd37f09baeee8aeae36352c5534e
+SHA256: bf72afb769cabe6cfc0c3198f6994ca1a01b590cd310bec04340ca75276fd6d2
+SHA512: 469c1db17978e2453316b04cf5653c62ef0dc1c5723356d003492b8a7682864f4a61ab13d8d48e509dcba07e6f6e0c9f04b69f00b74f5569e475588b87816d60
+Description: Enable system-wide performance HUD from the control center.
+Name: CAPerfHUDModule
+Author: khanhduytran0
 
 Package: com.kdt.trollpad
 Architecture: iphoneos-arm64

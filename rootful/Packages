@@ -139,6 +139,23 @@ Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
 
+Package: com.kdt.caperfhudmodule
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Control Center (Modules)
+Maintainer: khanhduytran0
+Installed-Size: 260
+Depends: com.opa334.ccsupport, firmware (>= 13.0)
+Filename: ./pool/iphoneos-arm/com.kdt.caperfhudmodule_1.0.0_iphoneos-arm.deb
+Size: 20542
+MD5sum: 179ca68d838827d25db0d96d7d66fafa
+SHA1: 15f8cdc8e510efe441d8993c756cb578da663914
+SHA256: 9aad11b2e5c121d27a993823a3de1ce8aa032ff8ecfe40543982620482f033c4
+SHA512: b5a5ca5e5a3c306cc6c07615c6bf004a6be664b18a70c915ebc13fe7769ac2e2c95c86ecf51fba212b3de3fd954d6c07042273829c6f22d1c5f7cee231e6babc
+Description: Enable system-wide performance HUD from the control center.
+Name: CAPerfHUDModule
+Author: khanhduytran0
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.12
