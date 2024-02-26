@@ -1,0 +1,41 @@
+name: Download and Upload .deb
+
+on:
+  push:
+    branches:
+      - main
+      
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  download_and_upload:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout Main
+        uses: actions/checkout@v4.1.1
+
+      - name: Run download and upload script
+        run: |
+          chmod +x latest.sh
+          ./latest.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set Git user identity
+        run: |
+          git config user.name "Deci8BelioS"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push changes
+        run: |
+          git add .
+          git commit -m "Actualizar archivos desde GitHub Actions"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
