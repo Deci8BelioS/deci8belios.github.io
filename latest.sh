@@ -42,6 +42,7 @@ repositories=(
     "ginsudev/YTMusicUltimate"
     "dayanch96/InfusePlus"
     "dayanch96/BHTikTok-Plus"
+    "khanhduytran0/TrollPad" 
 )
 
 # Crear la estructura de directorios
@@ -70,12 +71,10 @@ for repo_info in "${repositories[@]}"; do
     done
 done
 
-# Ejecutar build.sh desde el repositorio clonado
-chmod +x build.sh
-
 # Ejecutar comandos adicionales solo si se realizaron descargas
 if [ "$downloads_made" = true ]; then
-    ./build.sh
+    # Ejecutar build.sh desde el repositorio clonado
+    chmod +x build.sh
     echo "Descarga completa."
 else
     echo "No se realizaron nuevas descargas. Saliendo sin ejecutar comandos adicionales."
