@@ -1,0 +1,83 @@
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm
+Version: 2.0.12
+Section: Applications
+Maintainer: opa334
+Installed-Size: 4268
+Filename: ./pool/iphoneos-arm/com.opa334.trollstorehelper_2.0.12_iphoneos-arm.deb
+Size: 1881276
+MD5sum: efde245f672aa12635bc829088862631
+SHA1: fa132a74b44d21dd7bcbfbdc750fddb3472f5ec5
+SHA256: 8fe133cf7f88f0ced178c19a945a6d49cd715838029ea661c8876be0fb7be405
+SHA512: 82d2d57fb16b5db98449995f63afe1482c91ab83de84fc007716fd73bf3d5a99b445848095c843c67694ff146aff1150c970832ba95e0a577912c363c2e6c1e2
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 2.0.12
+Section: Applications
+Maintainer: opa334
+Installed-Size: 4268
+Filename: ./pool/iphoneos-arm64/com.opa334.trollstorehelper_2.0.12_iphoneos-arm64.deb
+Size: 1881252
+MD5sum: a7b2356823bda892d8ba165bd587ed84
+SHA1: 42bdde0616dbd079b74fb4d2f1a505770cb26ae9
+SHA256: 5c34816f683cc32dcc98557327d873b996ea1661b5c3d3308e59383e58ea663a
+SHA512: e7616000b53473204ece03e006f67c7d5d3ee13c641204837a165125169d51660868d686fa1c2d7b66214119faa3a41cd183bc8bdd562cca099b770c5053a2e5
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.1.0~libhooker2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: https://repo.theodyssey.dev/debs/rocketbootstrap_1.1.0~libhooker2-iphoneos-arm.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+Section: Tweaks
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Dev: rpetrich
+Name: RocketBootstrap
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager (64-bit only)
+Version: 4.0.0-6
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 23200
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Provides: com.tigisoftware.filza (= 4.0.0-6)
+Filename: https://tigisoftware.com/repo/com.tigisoftware.filza64bit_4.0.0-6_iphoneos-arm.deb
+Size: 8700444
+MD5sum: 023705537cb119fd58564b5918ed5cc8
+SHA1: 7c3d8234fa820d3a5f17e52dba8c8ed4596547ab
+SHA256: 1dbe2b7ff2d9463bc92454b3ad3159fc2d3b1ab8dee9f40844d719c3d7c73397
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: org.coolstar.libhooker
+Name: libhooker-shim
+Version: 0.0.1.1
+Section: Development
+Architecture: iphoneos-arm
+Author: coolstar
+Maintainer: coolstar
+Description: shim for those who can't use the real libhooker (e.g. iOS 10 or arm32)
+Size: 5436
+MD5sum: 4b6653470b9ef4d90f92b52be12d7def
+SHA256: b8494aebfa09c62593b76f3685644360d9d30f3c7f61e7d74ae9054575a7de61
+Filename: https://havoc.app/api/download/package/61f890c8304ffaa4a52e7b37/org.coolstar.libhooker_0.0.1.1.deb
+Depiction: https://havoc.app/depiction/libhookershim
+SileoDepiction: https://havoc.app/package/libhookershim/depiction.json
