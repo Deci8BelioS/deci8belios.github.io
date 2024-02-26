@@ -1,10 +1,14 @@
-name: Download and Upload .deb
+name: Update repository iOS
 
 on:
+  # Schedule updates (4 hours)
+  schedule: [{cron: "0 */4 * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
   push:
     branches:
       - main
-      
+  
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
