@@ -20,13 +20,10 @@ jobs:
       - name: Checkout Main
         uses: actions/checkout@v4.1.1
         
-      - name: Set up GPG key
-        run: |
-          echo "GPG_SIGNING_KEY content: $GPG_SIGNING_KEY"
-          echo -n "$GPG_SIGNING_KEY" | base64 --decode | gpg --import
-          echo "Key imported"
+      - name: Import GPG Key
+        uses: crazy-max/ghaction-import-gpg@v6.1.0
         env:
-          GPG_SIGNING_KEY: ${{ secrets.GPG_SIGNING_KEY }}
+           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           
       - name: Run download and upload script
         run: |
