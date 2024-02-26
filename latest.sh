@@ -75,6 +75,7 @@ done
 if [ "$downloads_made" = true ]; then
     # Ejecutar build.sh desde el repositorio clonado
     chmod +x build.sh
+    ./build.sh
     echo "Descarga completa."
 else
     echo "No se realizaron nuevas descargas. Saliendo sin ejecutar comandos adicionales."
