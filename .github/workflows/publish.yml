@@ -23,7 +23,7 @@ jobs:
       - name: Import GPG Key
         uses: crazy-max/ghaction-import-gpg@v6.1.0
         env:
-           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+           GPG_PRIVATE_KEY: ${{ secrets.PGP }}
           
       - name: Run download and upload script
         run: |
