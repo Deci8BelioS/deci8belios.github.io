@@ -22,8 +22,9 @@ jobs:
         
       - name: Set up GPG key
         run: |
-          echo "PGP content: $PGP"
-          echo -n "$PGP" | base64 --decode | gpg --import
+          echo "GPG_SIGNING_KEY content: $GPG_SIGNING_KEY"
+          gpg --list-secret-keys
+          echo -n "$GPG_SIGNING_KEY" | base64 --decode | gpg --import
           echo "Key imported"
         env:
           GPG_SIGNING_KEY: ${{ secrets.PGP }}
