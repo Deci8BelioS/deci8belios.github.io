@@ -22,9 +22,11 @@ jobs:
         
       - name: Set up GPG key
         run: |
-          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
+          echo -n "$GPG_SIGNING_KEY" | base64 --decode | gpg --import
           echo "Key imported"
-
+        env:
+          GPG_SIGNING_KEY: ${{ secrets.GPG_SIGNING_KEY }}
+          
       - name: Run download and upload script
         run: |
           chmod +x latest.sh
