@@ -29,18 +29,25 @@ jobs:
         run: |
           chmod +x latest.sh
           ./latest.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set Git user identity
         run: |
           git config user.name "Deci8BelioS"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
         run: |
           git add .
           git commit -m "Actualizar archivos desde GitHub Actions"
-        # El push se realizará solo si hay cambios que committear
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Push changes
         if: git diff --quiet HEAD
         run: |
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
