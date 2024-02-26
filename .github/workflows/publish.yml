@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout Main
         uses: actions/checkout@v4.1.1
-
+        
       - name: Set up GPG key
         run: |
           echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
@@ -38,16 +38,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit changes
+      - name: Push changes
         run: |
           git add .
           git commit -m "Actualizar archivos desde GitHub Actions"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Push changes
-        if: git diff --quiet HEAD
-        run: |
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
