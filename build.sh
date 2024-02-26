@@ -1,5 +1,5 @@
 #!/bin/bash
-GPG_KEY="B83EFDEAEB3541290"
+GPG_KEY="$GPG_KEY"
 OUTPUT_DIR="."
 
 script_full_path=$(dirname "$0")
