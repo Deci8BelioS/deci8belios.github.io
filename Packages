@@ -298,6 +298,24 @@ Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
 
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Recommends: oldabi
+Filename: ./pool/iphoneos-arm64/com.kdt.trollpad_1.2_iphoneos-arm64.deb
+Size: 6174
+MD5sum: e93c045b2096c1f4d02a9e3cabc2eab9
+SHA1: a858012f8514183edc5907dc2e966a0417e59cb1
+SHA256: 4f7a36a39e31286dd06832e2d0276fdacc3b81bec9957eba7f06de1fca6a254a
+SHA512: 55efe94626de6f2bce58408d309fee5968aeb1555d532b43d9a50b7de2956c76274b93a5be8e338fe77735d3f9fb5ad5e2db241c43a840a816d32cee93b8dc5a
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 2.0.12
