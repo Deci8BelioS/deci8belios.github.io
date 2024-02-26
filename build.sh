@@ -1,5 +1,4 @@
 #!/bin/bash
-GPG_KEY="F3594A65343002C55E35FB1E9E7E89B50CCF8DAA"
 OUTPUT_DIR="."
 
 script_full_path=$(dirname "$0")
@@ -26,6 +25,21 @@ set_arch_vars() {
     esac
 }
 
+# Buscar claves GPG disponibles
+available_keys=$(gpg --list-secret-keys --keyid-format LONG)
+GPG_KEY=""
+
+# Seleccionar la primera clave GPG encontrada (puedes ajustar esta lógica según tus necesidades)
+if [ -n "$available_keys" ]; then
+    GPG_KEY=$(echo "$available_keys" | grep -oP '^sec\s+\K\S+(?=\s+)' | head -n 1)
+fi
+
+if [ -z "$GPG_KEY" ]; then
+    echo "No se encontraron claves GPG disponibles."
+    exit 1
+fi
+
+echo "Se utilizará una clave GPG para firmar los archivos."
 
 echo "[*] Generando paquetes..."
 for d in "${dirs[@]}"; do
