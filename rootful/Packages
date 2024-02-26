@@ -1,3 +1,144 @@
+Package: com.bandarhl.bhtiktok
+Architecture: iphoneos-arm
+Version: 2.3
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 1480
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/bhtiktok_2.3_iphoneos-arm.deb
+Size: 481732
+MD5sum: e5b410b6f43ac6146d8f506b1bd331a7
+SHA1: cdad39b612c61f6143c88f29e1302cf88f474ee8
+SHA256: 4bfeee68dff44248e0ee116b7745a788fac834a49735c6fdabe410918f7bba63
+SHA512: 13b00c1999543afb0af8694c56f8bd0c08caaacdfc6a51b83bd54c25002a5dc97d1d6e5eb8aecbd8bc250dd5528940922e94ade62f46d20e25304ce309322ad4
+Description: An awesome tweak for TikTok!
+Name: BHTikTok Plus
+Author: dvntm
+Icon: https://i.imgur.com/PKIhkrt.png
+
+Package: ch.xxtou.hudapp
+Architecture: iphoneos-arm
+Version: 1.11.2
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 412
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.7000)
+Filename: ./pool/iphoneos-arm/ch.xxtou.hudapp_1.11.2_iphoneos-arm.deb
+Size: 133124
+MD5sum: d3ad6f7c380190dc20c7050ad38e24a0
+SHA1: 0b82a3cbe0f81535e58f807e8c4b7ced7066e0a4
+SHA256: cc5d60e9debd5bdb3ae3e999124fedf6907fe387e34d3d9857a8c8f9994f5469
+SHA512: 3c3d6f7b85492f99e366bab4ebb647a3b519f8344d3f82dbf4a296dc21adabdb32ea871f228efb061548fe15897080113396b9a51ada14b9df91497d4486754c
+Description: Troll speed, but jailbroken.
+Name: HUD App
+Author: Lessica <82flex@gmail.com>
+
+Package: com.bandarhl.bhinsta
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Bandar Alruwaili
+Installed-Size: 408
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./pool/iphoneos-arm/com.bandarhl.bhinsta_0.0.1_iphoneos-arm.deb
+Size: 69204
+MD5sum: 73ca72f44846cc20c504993162b08325
+SHA1: f2e9a8b084d902f29683d8ee3c1fec3feadae7ff
+SHA256: 558ff18e1d7c829df66bf6df93a56ecad309ec1d44db1a1a46908c318ce78f90
+SHA512: b0ad5942d24f05d4ec948c74f1d9e1f61ef9ee63d294d192e00245fa738be958fd0daf0004f4734560b34b53d1feece04a7351f83ceff226436ce17d08cffbed
+Description: An awesome tweak for Instagram!
+Name: BHInsta
+Author: Bandar Alruwaili
+
+Package: com.bandarhl.bhtwitter
+Architecture: iphoneos-arm
+Version: 4.3-1+debug
+Section: Tweaks
+Maintainer: Bandar Alruwaili
+Installed-Size: 23840
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./pool/iphoneos-arm/com.bandarhl.bhtwitter_4.3-1+debug_iphoneos-arm.deb
+Size: 8692178
+MD5sum: dae680af8c1635feaa83344ca971a143
+SHA1: eb07180bec9f22d923f20e4f864dad235ed7ca52
+SHA256: 35bce089e989f0843eb4d8bab3de76c0c8cea616d15df26896acb99983b401e8
+SHA512: f8b54b58a9041c20c613ab3111d6681bc7dc32c4dfb242308cc510333936d1ff4243fb6cc5020a716897ca194229b01c5aedc3fb7fab1dcd099190744c5b5389
+Description: Awesome tweak for Twitter
+Name: BHTwitter
+Author: Bandar Alruwaili
+
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 496
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.infuseplus_1.1.4_iphoneos-arm.deb
+Size: 169520
+MD5sum: 6889b5dc7703e7ca45b765ca458b7cef
+SHA1: 18823cb8d09ad1e7dbf602d72c9333ef4b5ee8bc
+SHA256: 250038da8b78cfdc81de887aeb6c0cc5bd383808e44bbe73efece9fc1278d3f5
+SHA512: 33a9a73339a2ee738252cd045b7d570b21b79c39301a3664f08e77e997bb728686fc99323a087c10367caca23fa16d38f102b045c614d74570aedf7632570e89
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://i.imgur.com/C5MLSXo.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
+
+Package: com.dvntm.uyoulocalization
+Architecture: iphoneos-arm
+Version: 3.0.3
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 192
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.uyoulocalization_3.0.3_iphoneos-arm.deb
+Size: 27970
+MD5sum: f5c04ffb8c3c76fba8a9d6db47920da5
+SHA1: 08ef4d40b39f97160d157fc9ab6ed153bfaeefb4
+SHA256: f16cd13c37676652105975009c11dbe580f52ab33763e64819252ebe1cd9d48a
+SHA512: f4e6f60c4fcf0c2e2009fa50798610703f4f10258af54da90f6a075337f5dc53855f87981728bde81a2cbb27cab551fbec865d9e0fbbdfdff09c2f0d1432fe8f
+Description: Localization support for uYou tweak.
+Name: uYouLocalization
+Author: dvntm
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm
+Version: 2.6.3
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 328
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.ytlite_2.6.3_iphoneos-arm.deb
+Size: 72902
+MD5sum: b190cb2eafe245db4a04ff7dd4c8db2f
+SHA1: ee40f1ebc12a13686b303646ff69dac51bf86a07
+SHA256: 487d3317d10533c71661f67787665efe0681325423de1cedab1ac9268acbdf95
+SHA512: e20e874dc69bf2ebcb7b842e6ce1b360ee7e241e8e2f17f5e310cf36d39ee0d14565d39b6b6ee7c59104827b2d36dca9559fc5896ae414e38d4bd95129f93911
+Description: Lightweight YouTube Enhancer
+Name: YTLite
+Author: dvntm
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
+Version: 2.0.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26484
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/com.ginsu.ytmusicultimate_2.0.1_iphoneos-arm.deb
+Size: 10233708
+MD5sum: 4941e40503dac1cc15c668cf2679fa23
+SHA1: b0c8d7c15d3881721863e5cfee58db368b3dd018
+SHA256: f99914da6a9c2bb81667a6f231146de9be7319e32549539803a0d9a30d483b4f
+SHA512: 3b3ee48330d9147c7adb23935a471ffa9c6021e3fd9eab7763afc0c4a1a80bff378b8321775949f80f08cc115ebb9dcf0cbda34ae2890dacfb83cc3a8ae0fac5
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.12
@@ -13,6 +154,26 @@ SHA512: 82d2d57fb16b5db98449995f63afe1482c91ab83de84fc007716fd73bf3d5a99b4458480
 Description: Helper utility to install and manage TrollStore!
 Name: TrollStore Helper
 Author: opa334
+
+Package: h.ryan.youtubereborn
+Architecture: iphoneos-arm
+Version: 4.2.4
+Section: Tweaks
+Maintainer: Lillie
+Installed-Size: 24888
+Provides: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig, com.ps.ytx
+Replaces: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Filename: ./pool/iphoneos-arm/h.ryan.youtubereborn_4.2.5_iphoneos-arm.deb
+Size: 9082138
+MD5sum: eb3b3834953ae3063d8a3f2a70c78543
+SHA1: 8fb2f402c6836b628ceb6eff6c1840c98e4db53b
+SHA256: 30f4c0fa5e8f0936404727be906cd8dca7706e28aa0125d9bb8f39e65b550584
+SHA512: 787a957a6d0c52b7826b4f32660e8edad0989a8201f0ee5653042d8c3c4d86c96ac7130a0ceaf5f21bb80edeed60c970c0abc16d746ec0c501ad57686aff28ee
+Description: YouTube Customizer
+Name: YouTube Reborn
+Author: Lillie
 
 
 Package: com.rpetrich.rocketbootstrap
