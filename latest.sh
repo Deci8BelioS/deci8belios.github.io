@@ -33,15 +33,15 @@ download_package() {
 # Repositorios
 repositories=(
     "opa334/TrollStore"
-    # "dayanch96/uYouLocalization"
-    # "BandarHL/BHTwitter"
-    # "BandarHL/BHInstagram"
-    # "arichornlover/YouTube-Reborn-v5"
-    # "Lessica/TrollSpeed"
-    # "dayanch96/YTLite"
-    # "ginsudev/YTMusicUltimate"
-    # "dayanch96/InfusePlus"
-    # "dayanch96/BHTikTok-Plus"
+    "dayanch96/uYouLocalization"
+    "BandarHL/BHTwitter"
+    "BandarHL/BHInstagram"
+    "arichornlover/YouTube-Reborn-v5"
+    "Lessica/TrollSpeed"
+    "dayanch96/YTLite"
+    "ginsudev/YTMusicUltimate"
+    "dayanch96/InfusePlus"
+    "dayanch96/BHTikTok-Plus"
 )
 
 # Crear la estructura de directorios
