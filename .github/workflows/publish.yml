@@ -20,10 +20,12 @@ jobs:
       - name: Checkout Main
         uses: actions/checkout@v4.1.1
         
-      - name: Import GPG Key
-        uses: crazy-max/ghaction-import-gpg@v6.1.0
+      - name: Set up GPG key
+        run: |
+          echo "${{ secrets.PGP }}" | gpg --import
+          echo "Key imported"
         env:
-           GPG_PRIVATE_KEY: ${{ secrets.PGP }}
+          GPG_PRIVATE_KEY: ${{ secrets.PGP }}
           
       - name: Run download and upload script
         run: |
