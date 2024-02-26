@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeciBelioS - REPO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <style>
+        body {
+            background: #1E1E1E;
+            margin: 0;
+            font-family: "Quicksand", sans-serif;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        #center {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            cursor: pointer;
+            animation: moveUpDown 3s ease-in-out infinite;
+            color: #3498db;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            animation: moveUpDown 3s ease-in-out infinite;
+        }
+        .window {
+            background: #252526;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+        }
+        .packagemanager {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            flex-direction: column;
+        }
+        .packagemanager a {
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .packagemanager a img {
+            width: 64px;
+            height: 64px;
+            margin: 0 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .packagemanager a img:hover {
+            transform: scale(1.2);
+        }
+        .packagemanager p {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div id="center">
+        <div class="window">
+            <h1>DeciBelioS - REPO</h1>
+            <p>Compilation of Tweaks for iOS</p>
+        </div>
+    </div>
+    <div class="packagemanager">
+        <a href="sileo://source/http://decibelios.duckdns.org/repo" target="_blank">
+            <img src="sileo.png" alt="sileo">
+            <p>Sileo</p>
+        </a>
+        <a href="zbra://sources/add/http://decibelios.duckdns.org/repo" target="_blank">
+            <img src="zbra.png" alt="zbra">
+            <p>Zebra</p>
+        </a>
+    </div>
+</body>
+</html>
