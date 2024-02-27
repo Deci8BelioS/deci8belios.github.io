@@ -2,7 +2,7 @@ name: Update repository iOS
 
 on:
   # Schedule updates (4 hours)
-  schedule: [{cron: "0 */4 * * *"}]
+  schedule: [{cron: "0 */6 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   
