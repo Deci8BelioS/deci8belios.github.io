@@ -1401,6 +1401,23 @@ Description: Enable system-wide performance HUD from the control center.
 Name: CAPerfHUDModule
 Author: khanhduytran0
 
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm
+Version: 1.2.1
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./pool/iphoneos-arm/com.kdt.trollpad_1.2.1_iphoneos-arm.deb
+Size: 22874
+MD5sum: f1961f85b3b49650927a43394356e675
+SHA1: 6907588305dcfc65e9479689db98fe2a323f93f4
+SHA256: ed1a12b9466304cbeb7d3e890248ea1ba8af001ca7fcd980936176d744789956
+SHA512: e11255844c3feff34dda37fffb451613314fbc0f2f0d2787b7e4a15d122172c120262a80a59bb62d40cc86da266f90b979e59877e7c47712196eff3e6de0a7af
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.0
