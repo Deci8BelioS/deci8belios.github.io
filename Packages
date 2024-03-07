@@ -157,6 +157,23 @@ Author: Lessica <82flex@gmail.com>
 
 Package: ch.xxtou.hudapp
 Architecture: iphoneos-arm
+Version: 1.11.3
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 428
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.7000)
+Filename: ./pool/iphoneos-arm/ch.xxtou.hudapp_1.11.3_iphoneos-arm.deb
+Size: 134902
+MD5sum: 1cce7e8af4f41f6068152130666519fe
+SHA1: 60167782ae8e5709f184bf6e25dca5af33a7158c
+SHA256: 0a4bcf66f96625aeab2dd1aae9478f9c82ede7ef5f92134a03d6a6d02bb9bb26
+SHA512: 025c466f4e2cdc0aa6f4a8d92292bf21416276e020102a405e6d69a935e671bce58df5c5bb83cbd6ea22eb6ff57d1b1d2d8ad360b7f66689ba0de1b2df6ca271
+Description: Troll your speed, but jailbroken.
+Name: HUD App
+Author: Lessica <82flex@gmail.com>
+
+Package: ch.xxtou.hudapp
+Architecture: iphoneos-arm
 Version: 1.9.5
 Section: Tweaks
 Maintainer: Lessica <82flex@gmail.com>
@@ -1782,6 +1799,23 @@ SHA1: b7c9d126a70ee1e931de54f2b838797b046f0150
 SHA256: 60392145e328d9c73497faa8515f75be62a65980ef5dfcd15515a0b0b9c6ba1c
 SHA512: 2dfedba59485396c83ba7abff58ad6d7e954307c371d8349852363283357da709e9305aae0f7599470f09dc40adc5fca9d541570ead18cbcc0f9789896f1ac3b
 Description: Troll speed, but jailbroken.
+Name: HUD App
+Author: Lessica <82flex@gmail.com>
+
+Package: ch.xxtou.hudapp
+Architecture: iphoneos-arm64
+Version: 1.11.3
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 428
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.7000)
+Filename: ./pool/iphoneos-arm64/ch.xxtou.hudapp_1.11.3_iphoneos-arm64.deb
+Size: 134900
+MD5sum: 8c5f6d1a326c2cc1ee459baef9d587be
+SHA1: cf97bbad470971d2a758cce99be659653b1fddc4
+SHA256: 3cc5d83811cf3d6ee74e6a2292e5c921453f818347ef17fed21998087c9ba354
+SHA512: 6e5a55650946c85e4e1f1c9024e62e7e0abac27d89e1fd1f6544d1707bf888888a8657a981a14abcdab94f5f2ace727546e109ba5b3051a39262d6841644936d
+Description: Troll your speed, but jailbroken.
 Name: HUD App
 Author: Lessica <82flex@gmail.com>
 
