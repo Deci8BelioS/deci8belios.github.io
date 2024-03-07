@@ -174,6 +174,23 @@ Author: Lessica <82flex@gmail.com>
 
 Package: ch.xxtou.hudapp
 Architecture: iphoneos-arm
+Version: 1.11.6
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 428
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.7000)
+Filename: ./pool/iphoneos-arm/ch.xxtou.hudapp_1.11.6_iphoneos-arm.deb
+Size: 134588
+MD5sum: d4c94e5ae86d49ad6fb7754ef815590c
+SHA1: d6d0501e99140f25947309911219bb1e4686bd36
+SHA256: 7ed04d2f9fb8be545361d5032f3012e1f6de05cc378d8935c3fd262ffee819eb
+SHA512: 90d42c960ff5a7687b561334e0938fa958b966376facf05109d4d6b12b83bde83500e2ae5284f3712011dcf1c33efa23221b0e61b8c68a1d82d4a7e0b3c1d5d0
+Description: Troll your speed, but jailbroken.
+Name: HUD App
+Author: Lessica <82flex@gmail.com>
+
+Package: ch.xxtou.hudapp
+Architecture: iphoneos-arm
 Version: 1.9.5
 Section: Tweaks
 Maintainer: Lessica <82flex@gmail.com>
@@ -1084,6 +1101,25 @@ SHA512: 8ebc87fb220e49fbb3b1ff38a06e06e8e3acdc2465e9e00609e9a6cf00c60a0d2be0e462
 Description: Lightweight YouTube Enhancer
 Name: YTLite
 Author: dvntm
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm
+Version: 3.0.1
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 464
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.ytlite_3.0.1_iphoneos-arm.deb
+Size: 116020
+MD5sum: 683f44d461c07fc455b96bb437c1733b
+SHA1: 776ff267eb12cc94df58e932a932b69ee69639b2
+SHA256: 6ba94fdcbcff1c130eb8e2d3034cc2f8580bea38cdd18b1b312739f40feb29e2
+SHA512: 0a807a8897c176e2b99d05f5546288645086820bf52aee8f8aac10af4636b88cf83ad0ab0a547d53bc1e33eac7699d78e43b68b79c49df21c65fd6525164a7d6
+Description: Lightweight YouTube Enhancer
+Name: YTLite
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.json
 
 Package: com.dvntm.ytlite
 Architecture: iphoneos-arm
