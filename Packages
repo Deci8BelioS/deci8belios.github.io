@@ -1489,6 +1489,23 @@ Description: Troll SpringBoard into thinking it's running on iPadOS.
 Name: TrollPad
 Author: khanhduytran0
 
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm
+Version: 1.2.2
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./pool/iphoneos-arm/com.kdt.trollpad_1.2.2_iphoneos-arm.deb
+Size: 25526
+MD5sum: 27f54a19094891aee100ce5febcd8a3b
+SHA1: 4a3fda77d9dbba2496df6963ae05ad4b02e9ad9d
+SHA256: bb9118d07ee81a0a053d875faf6dcd8de4ab96d758380c38642874fc5f9e9f2b
+SHA512: 0602734825d976cce45ad8dd9ffaa67e7263d5c4a33b6a1baad1f66f2bafb0f1ecf09012cdaa17c23259d2aca81705ea16369c27eaf33d6ad9ed498be23d953b
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.0
@@ -2880,6 +2897,23 @@ MD5sum: 09e79147dff52a14905649fb5921becd
 SHA1: 13bda7eae7e8af3c5dee6ee733895766a17c1d07
 SHA256: cbaf4a7c8c4e7f4b8c90f50777a6978280350cdf3856cdda91cae61bf6ba3530
 SHA512: 6c0d10089661f11b48fc74f94128fb353bf635483ac251ae9aa1ff5fa57dc46a79f37326fb6dd3e9b6d515b1c0a94f29ae2a786f938662e333d947a54e3dab7f
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./pool/iphoneos-arm64/com.kdt.trollpad_1.2.2_iphoneos-arm64.deb
+Size: 25596
+MD5sum: 46dfc1ec850cd3a31167a3972390a63f
+SHA1: f98e2396dfa8ae2ff94495a35dd5a63ead2f40ea
+SHA256: cafd9852043582776170042ba69d3ee16c4879ee6b8ed2192cfc7c1cb8b97094
+SHA512: 6e49ea32faffec48b4b1b1b9ec31a3ae7fc6c4943df385aacf2f75fa8e3ad5211a7cea81f6859d3cdacece2ee0801e9ce5b5ad9f712c5d0e20b465e58b91760e
 Description: Troll SpringBoard into thinking it's running on iPadOS.
 Name: TrollPad
 Author: khanhduytran0

@@ -1489,6 +1489,23 @@ Description: Troll SpringBoard into thinking it's running on iPadOS.
 Name: TrollPad
 Author: khanhduytran0
 
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm
+Version: 1.2.2
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./pool/iphoneos-arm/com.kdt.trollpad_1.2.2_iphoneos-arm.deb
+Size: 25526
+MD5sum: 27f54a19094891aee100ce5febcd8a3b
+SHA1: 4a3fda77d9dbba2496df6963ae05ad4b02e9ad9d
+SHA256: bb9118d07ee81a0a053d875faf6dcd8de4ab96d758380c38642874fc5f9e9f2b
+SHA512: 0602734825d976cce45ad8dd9ffaa67e7263d5c4a33b6a1baad1f66f2bafb0f1ecf09012cdaa17c23259d2aca81705ea16369c27eaf33d6ad9ed498be23d953b
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.0
