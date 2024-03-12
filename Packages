@@ -1525,6 +1525,25 @@ Description: Troll SpringBoard into thinking it's running on iPadOS.
 Name: TrollPad
 Author: khanhduytran0
 
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm
+Version: 1.2.3
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./pool/iphoneos-arm/com.kdt.trollpad_1.2.3_iphoneos-arm.deb
+Size: 27786
+MD5sum: 8b34b601a65653c42e137f4301677006
+SHA1: beda172a2dfc08dfead601762b5497abcb3fe526
+SHA256: 45d7fb35a2e2dbd859d29610d3b365c09e9449f072e7451934accf8d7e3e81cb
+SHA512: 5f401e2be499ed26019ac646589047bf28a85b228b2d83e1d5214028a6bf2b3014ac0168afe6ff14a2bbd2b77508d33aeb2aec2495ad662aedd34ec78be9c470
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+Depiction: https://khanhduytran0.github.io/repo/depictions/web/?p=com.kdt.trollpad
+SileoDepiction: https://khanhduytran0.github.io/repo/depictions/native/com.kdt.trollpad/depiction.json
+
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
 Version: 2.0.0
@@ -2955,6 +2974,25 @@ SHA512: 6e49ea32faffec48b4b1b1b9ec31a3ae7fc6c4943df385aacf2f75fa8e3ad5211a7cea81
 Description: Troll SpringBoard into thinking it's running on iPadOS.
 Name: TrollPad
 Author: khanhduytran0
+
+Package: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: Tweaks
+Maintainer: khanhduytran0
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./pool/iphoneos-arm64/com.kdt.trollpad_1.2.3_iphoneos-arm64.deb
+Size: 27738
+MD5sum: 083bc090d680bea604d4af1a06ae16df
+SHA1: eb6e80aaac534d8fd80aa2fa43cc442c5aa65c7a
+SHA256: 508c6a1fad7b20eab352a771f72eabfb092ce82d3c1b0c780da9df79a52fd7f4
+SHA512: 4ca3afbaf503a2ca9125f458dca9c44755a9e699b5fb2f5273bd1afce1890f1d1a300f961424b201ba8780ea9e976b8f683afb5904263d6952cd55c97a64d466
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Name: TrollPad
+Author: khanhduytran0
+Depiction: https://khanhduytran0.github.io/repo/depictions/web/?p=com.kdt.trollpad
+SileoDepiction: https://khanhduytran0.github.io/repo/depictions/native/com.kdt.trollpad/depiction.json
 
 Package: com.kdt.trollpad
 Architecture: iphoneos-arm64
