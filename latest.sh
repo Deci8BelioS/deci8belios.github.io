@@ -39,7 +39,7 @@ repositories=(
     "arichornlover/YouTube-Reborn-v5"
     "Lessica/TrollSpeed"
     "dayanch96/YTLite"
-    "ginsudev/YTMusicUltimate"
+    "dayanch96/YTMusicUltimate"
     "dayanch96/InfusePlus"
     "dayanch96/BHTikTok-Plus"
     "khanhduytran0/TrollPad"
