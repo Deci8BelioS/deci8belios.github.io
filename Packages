@@ -1529,6 +1529,25 @@ Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
 
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
+Version: 2.0.7
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/com.ginsu.ytmusicultimate_2.0.7_iphoneos-arm.deb
+Size: 10248428
+MD5sum: 5e70682a0ac4a80387f115c1cfd8ae67
+SHA1: da51df6517379646df60c10aa8cd015f977251ac
+SHA256: 682aa4dfbc82cba8e43dd3ce8051b882cb1232d9a5126e684169978b854d0ee1
+SHA512: 3d3e11a7b0784f887c036ed74f17fa69f3305a773af388d8e95efa5454dab9f72001b3d8d2382e0aceaf04ef52964540a624bec41dc4a550c92cf2bdb12c2cad
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
 Version: 2.0
 Section: Tweaks
 Maintainer: Ginsu
@@ -3094,6 +3113,25 @@ MD5sum: 4389328226a5b80b2bc0f358b3c95578
 SHA1: d5d04950b24f81cce8f8bafd3bf3255a28a25d8e
 SHA256: 01d8baac5240de8f90568909aa837a3dc56daa79fa0325cdb75261b009aeab94
 SHA512: 60f2fe26b40006ea0f587efcfee3ec1d1b23823b887bfc5908689df9e58b3120c221e43abd34fdcc3090091cbf23fa928c154d278b14899a0ac6acfbbf670b2a
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm64
+Version: 2.0.7
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm64/com.ginsu.ytmusicultimate_2.0.7_iphoneos-arm64.deb
+Size: 10248776
+MD5sum: 7a7fb94ec678218da9ffa64edb1d1da7
+SHA1: 5d78b30b340dadec06e2f7b61bf12a13a2b321d3
+SHA256: fcd14543c9e8387cc1cb7875753a964a890a66cd75bd4302fbfe82bf07bf768b
+SHA512: f59d30c266fc3e3be29a021520926743522046243b7d21cc6a871be359fa2095447e8a5c3521ad4dabb1d468c492d65c88cddc5cfbfb5ebd9ddce58b09388e20
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu
