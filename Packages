@@ -1192,6 +1192,23 @@ Name: YTLite
 Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 288
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_1.1_iphoneos-arm.deb
+Size: 38166
+MD5sum: 76a9e366de9217f1773748450fe6f7b3
+SHA1: 7bf9159a263b79b4a4ff3af0bbd2079340bae0e7
+SHA256: 2d77f6f9c72280a2c2feea9b20500381bd1f54923588891ee1cb8e3ea97af10f
+SHA512: 44ca3b50bbced7ea3e0dc484ca7ac2f17e617e817b7943f684c633ebfdb7211082f57167f338985d708a2384691087a5934b2beb014da45ecfd4b351b4dc629a
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -2783,6 +2800,23 @@ Description: Lightweight YouTube Enhancer
 Name: YTLite
 Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 288
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_1.1_iphoneos-arm64.deb
+Size: 38214
+MD5sum: 77f7a6e5e49bcca032cda6ad979e8e9f
+SHA1: 0a2a6c24431c9ca9967650c84088facc3ef3b0a2
+SHA256: 31b32a1673ccd4367353dfb66b7ce58426dfd1da470eeeea75528ed821605b5e
+SHA512: 9e149e16e7a12f6d146933f4d70c0186eac2917fd852c7a254e87529747af8b772dede882600e66b0c531ab80692e79c44363eb249038b2acabcd6e01a666eed
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
 
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm64
