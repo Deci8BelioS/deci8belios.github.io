@@ -1209,6 +1209,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 272
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_1.2_iphoneos-arm.deb
+Size: 31106
+MD5sum: 82e89c624500a197c56f8216cb2ccc68
+SHA1: 2751d8b5dd679340f0a5b05861a131edbf2a2524
+SHA256: c7ada27d95b0fe55f15d62b801a6d1a69231ad0c4e3e8f73d9a4a07531b71806
+SHA512: 758644dea3f04642cbc0866505af73153a7cc4f87decbeef0d85e807119bf5a6c7452468f26500a2f45ede387dd597101b986d2f618c1a35c31a900d8fc3fcfc
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -1538,6 +1555,25 @@ MD5sum: ac646a732f3992eafe6d08d5ac5c404f
 SHA1: 14c9bf88f7d1b932263e0e133f677f13862763c1
 SHA256: 647fb1273578450c867cf776aceb3d02c4b103abf9af828c593942b6c8e1bb1d
 SHA512: c49b0fb77e4af06369620a1119e08116d47ec0707d86df83fcbf94c26de8f6b5fbc38d59260b46579b78ad41ef2219fa722d167be9f014d5b9e89991db200aa9
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
+Version: 2.0.6
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26520
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/com.ginsu.ytmusicultimate_2.0.6_iphoneos-arm.deb
+Size: 10245974
+MD5sum: 9d31c8dce0a969bebcf8bfe9bfe4d872
+SHA1: a0f32a900784ea688209b06b23f44e14dffeb409
+SHA256: f57abbd14224f5dd83b8c46fff1d9bfeb31f095453879c3183b519c2cd820b62
+SHA512: 17fb9fe1888a9a04a3012283c80356e8268b680bd49fb2c070d4d056393a4638707f386291167763122afc674a8d95558b76fad617db5e7d4afaa2c9d0daa3ab
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu

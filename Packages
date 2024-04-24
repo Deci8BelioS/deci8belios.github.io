@@ -1209,6 +1209,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 272
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_1.2_iphoneos-arm.deb
+Size: 31106
+MD5sum: 82e89c624500a197c56f8216cb2ccc68
+SHA1: 2751d8b5dd679340f0a5b05861a131edbf2a2524
+SHA256: c7ada27d95b0fe55f15d62b801a6d1a69231ad0c4e3e8f73d9a4a07531b71806
+SHA512: 758644dea3f04642cbc0866505af73153a7cc4f87decbeef0d85e807119bf5a6c7452468f26500a2f45ede387dd597101b986d2f618c1a35c31a900d8fc3fcfc
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -1538,6 +1555,25 @@ MD5sum: ac646a732f3992eafe6d08d5ac5c404f
 SHA1: 14c9bf88f7d1b932263e0e133f677f13862763c1
 SHA256: 647fb1273578450c867cf776aceb3d02c4b103abf9af828c593942b6c8e1bb1d
 SHA512: c49b0fb77e4af06369620a1119e08116d47ec0707d86df83fcbf94c26de8f6b5fbc38d59260b46579b78ad41ef2219fa722d167be9f014d5b9e89991db200aa9
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
+Version: 2.0.6
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26520
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/com.ginsu.ytmusicultimate_2.0.6_iphoneos-arm.deb
+Size: 10245974
+MD5sum: 9d31c8dce0a969bebcf8bfe9bfe4d872
+SHA1: a0f32a900784ea688209b06b23f44e14dffeb409
+SHA256: f57abbd14224f5dd83b8c46fff1d9bfeb31f095453879c3183b519c2cd820b62
+SHA512: 17fb9fe1888a9a04a3012283c80356e8268b680bd49fb2c070d4d056393a4638707f386291167763122afc674a8d95558b76fad617db5e7d4afaa2c9d0daa3ab
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu
@@ -2818,6 +2854,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 272
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_1.2_iphoneos-arm64.deb
+Size: 30950
+MD5sum: 391e8e41ad9dab7ea25cd06d5c644984
+SHA1: ef33ca414d1c8ffaa89f15cdac438d82cf3a55b5
+SHA256: 5a3ee90657ddef8e8025aa500de04d8369b93d6ed712fcb2ea61a695551498b1
+SHA512: 19ffe5ef97448aa72a730ee9f5b061703101fdf635ab0f74189508db2ff52091be4318eb458e5bf6682dedeb1aa92eb6e3707e0fef2c61ff4187f1a095198bd9
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm64
 Version: 1.3.1
@@ -3147,6 +3200,25 @@ MD5sum: 4389328226a5b80b2bc0f358b3c95578
 SHA1: d5d04950b24f81cce8f8bafd3bf3255a28a25d8e
 SHA256: 01d8baac5240de8f90568909aa837a3dc56daa79fa0325cdb75261b009aeab94
 SHA512: 60f2fe26b40006ea0f587efcfee3ec1d1b23823b887bfc5908689df9e58b3120c221e43abd34fdcc3090091cbf23fa928c154d278b14899a0ac6acfbbf670b2a
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26520
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm64/com.ginsu.ytmusicultimate_2.0.6_iphoneos-arm64.deb
+Size: 10245912
+MD5sum: b7f87813f24b2aada53f1b509642cf39
+SHA1: 454b1b162e1d193a6d404bcbe5b82e8159f19f04
+SHA256: 1cb858ee1f84f721e625077f3144c611f0c738f19dc512837c966eb61f5435e8
+SHA512: e5228ae55a7a2a558e99c59beb5990cd773a26a8269a17fe99d53bff67e2e255df8937999dcc7a80c04b83e59b8daa5b71dc0700cb5636d77a209a2a86402560
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu
