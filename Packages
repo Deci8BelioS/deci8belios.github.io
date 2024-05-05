@@ -1277,6 +1277,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 564
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_2.0_iphoneos-arm.deb
+Size: 99960
+MD5sum: 12d0145f052eb71ba25805092aef61bf
+SHA1: 7728ed306cd55d72e78ab9841b92eb0d4114ee2d
+SHA256: 42ea10b36e309055b5f14576e24c174f9f077415e4a891b1bcc9884867ad5151
+SHA512: c8b88956112abd673373dbf3ae245b57f6df9e9bd39ee7c585051e26c4cff168de7d15f3ab97fa36254130721db15553aa8f9c8338b2619e4df12d8189dadc05
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -2054,6 +2071,23 @@ SHA512: 43a88cefef9194481875bf4ce4b62585c8dddab8f238945de768ec5e4fba02cf61da6aef
 Description: YouTube Customizer
 Name: YouTube Reborn
 Author: Lillie
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm
+Version: 1.26.0
+Section: System
+Maintainer: eevee
+Installed-Size: 9564
+Filename: ./pool/iphoneos-arm/org.swift.protobuf.swiftprotobuf_1.26.0_iphoneos-arm.deb
+Size: 1271720
+MD5sum: 97fe34c4118976faffb5b7f8a0facf6e
+SHA1: 05a7ef3175de9b100281e2ba992c76869c265aa4
+SHA256: c93ea1390d6ffe376486875ad587e1742a28ad0fae671df930602c304fa0556e
+SHA512: 0b111d92afec21026625089bc4cf5ce5701302a021318150f87daf3fa236086bc7f21e1059773042b0fe03492c58ee5ba71653714e79c67b9276182071466739
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
 
 Package: ch.xxtou.hudapp
 Architecture: iphoneos-arm64
@@ -2973,6 +3007,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 564
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_2.0_iphoneos-arm64.deb
+Size: 99954
+MD5sum: 3ff5ae17e0597a3ac19f6c29a0efc486
+SHA1: 4e8d023f29ce46aab4c51753e59deca1ce169233
+SHA256: edb4df61fd1ee59efb301d6d268cfda99ee9d24c7d0ea0668a79069268e9ff9f
+SHA512: a36f2c7c6786a6472b3c4048d4b1231262d60eb292469ba79367dc05a6a8d18399349ecfb89a461ac0138d215b2debf8f629d8f96a89979978fdcc6cde1bd0ff
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm64
 Version: 1.3.1
@@ -3769,6 +3820,23 @@ SHA512: d2b46f8bc6b01bf642de01688820a0b4409f79ea75665db5169bebe679f3e86ab86d5a9d
 Description: YouTube Customizer
 Name: YouTube Reborn
 Author: Lillie
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 1.26.0
+Section: System
+Maintainer: eevee
+Installed-Size: 9564
+Filename: ./pool/iphoneos-arm64/org.swift.protobuf.swiftprotobuf_1.26.0_iphoneos-arm64.deb
+Size: 1270968
+MD5sum: e96d2861c20ad33e1f0eb15b372478e7
+SHA1: f161ca3239740fe4ebb858d50cd1d12577da8b71
+SHA256: 9656de5e818241d8005d5cb4a6f8723dcc12274b38e79dd076d0f3caf87a40d5
+SHA512: 5b85167d27626809380a30dc3402d8559deedbd0a269a2aac91eeb414d80145f28f1c37200e3dc04ee24755c091c5da92d3ec6c4a28ddd757a88805a3cc076cd
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
 
 Package: com.bandarhl.bhtiktok
 Architecture: iphoneos-arm64
