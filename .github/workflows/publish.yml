@@ -1,4 +1,4 @@
-name: Update repository iOS
+name: Actualizar repositorio iOS
 
 on:
   # Schedule updates (4 hours)
@@ -17,23 +17,24 @@ jobs:
       contents: write
       
     steps:
-      - name: Checkout Main
+      - name: Comprobación principal
         uses: actions/checkout@v4.1.1
 
-      - name: Run download and upload script
+      - name: Ejecutar script de descarga y carga
         run: |
           chmod +x latest.sh
           ./latest.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set Git user identity
+      - name: Establecer la identidad del usuario Git
         run: |
-          git config --global user.name "Deci8BelioS"
+          git config --global user.name "${{ secrets.GIT_USER_NAME }}"
+          git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push changes
+      - name: Aplicar cambios
         run: |
           git add .
           git commit -m "Actualizar archivos desde GitHub Actions"
