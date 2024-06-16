@@ -1,3 +1,20 @@
+Package: ch.xxtou.hudapp.jb
+Architecture: iphoneos-arm64
+Version: 1.12.0
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 428
+Depends: firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm64/ch.xxtou.hudapp.jb_1.12.0_iphoneos-arm64.deb
+Size: 133358
+MD5sum: 734d3cf5df14a63e6c544f0640707b67
+SHA1: 209694004953474c5fb829919fa4a20ce68063d7
+SHA256: 0ff20e4bf262eacbe82912eb74920740d042eadec548a960e33990c41b611c66
+SHA512: cd892af017e66aaf0bedb06529dde6eb8bd1dc5b0cdc51cc697f43cb29cc187550dda86e0cc65dcf0ce8cf7a9cda40399a9ebe7163dda495eb90f26b5f5ef3f1
+Description: Troll your speed, but jailbroken.
+Name: TrollSpeed JB
+Author: Lessica <82flex@gmail.com>
+
 Package: ch.xxtou.hudapp
 Architecture: iphoneos-arm64
 Version: 1.10.0
@@ -1480,6 +1497,25 @@ MD5sum: 4bfc44e456144ba058bf55cb7567825c
 SHA1: d88bec6ca4aeb6c7fa82d36136156dd4f556f298
 SHA256: e5137aa2f2d9c30f87c809ebf466c11fb3bbcfec7cca2fd6e63b08992aa5c3c7
 SHA512: 43dca7dca61d79de92e83e84e5ed4821914aba5fb0c17151a0f6b8a1b2079cce86f2bbb3899c24e8c7d9a5daab7fc3c068ecd7d986db155b7202d09f19a97766
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: Ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
+Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 26388
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm64/com.ginsu.ytmusicultimate_2.1_iphoneos-arm64.deb
+Size: 10248110
+MD5sum: a806d0b2caa9e7011dd8b597a6257b8c
+SHA1: ff8ab479465f2a61edb3d49ace21d0b798e29609
+SHA256: 92b0ab9414061e58e8fe70ff9e6d63cd905020e209a6511e983c1766c02d7e18
+SHA512: 1e602653ab6137f3ed52e4e4cc832dd0da72dfbacb7d3efaab2a8ee16bac7fca3bce20aa3e87d813703794cfdd848025ef45bd02512105825609dc551218a837
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu
