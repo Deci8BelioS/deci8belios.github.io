@@ -15,6 +15,23 @@ Description: Troll your speed, but jailbroken.
 Name: TrollSpeed JB
 Author: Lessica <82flex@gmail.com>
 
+Package: ch.xxtou.hudapp.jb
+Architecture: iphoneos-arm64
+Version: 1.12.1
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 636
+Depends: firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm64/ch.xxtou.hudapp.jb_1.12.1_iphoneos-arm64.deb
+Size: 161582
+MD5sum: 36b3acc7be14f4f768a6538ade43f6f4
+SHA1: 23687866431b260fc3adc1c3928c4de35d66ba7b
+SHA256: ac8fdeb7f2947693d36f7b8c0d8ba74e7075feffa0bb0fd1a0f2fdac2786af79
+SHA512: 8d79f5bae41e1553c1875c9e3d8284f37e4566c5e5f4afc35332073f96a44817e015873158185fe5044768e37949b2fd7d215f941ca47d41abeb5bce145fcf46
+Description: Troll your speed, but jailbroken.
+Name: TrollSpeed JB
+Author: Lessica <82flex@gmail.com>
+
 Package: ch.xxtou.hudapp
 Architecture: iphoneos-arm64
 Version: 1.10.0
@@ -1107,6 +1124,23 @@ MD5sum: 3504990f19885e2b1f4fb70ea3d64e14
 SHA1: f748cf922da15119ea22dc09c4e3b5a27219be88
 SHA256: 75fb56f2a161ce2931289011aa3be25abdfbba7c2a22ce5b45fca77f3dee5786
 SHA512: 6d08e0d729cc9192439a9705739e427fd6eb683353a1abb41acc0180853688e932a20ddce659336f7708029a04b68bd3b09934eeea16316bc7cf7405db212573
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 4.2
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 1308
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_4.2_iphoneos-arm64.deb
+Size: 268282
+MD5sum: 8d21c598d9c35e1da1ac1119c119190a
+SHA1: 652fdb172da19611ea7f60c675db3dc110b956cb
+SHA256: d78014bd34c8094d85221dad1e85f4c9077ad3f423997d792697b054bd2cafb6
+SHA512: 9994ac6e4f9a6a73b004a947ec89d64d69ba36e05aa8f8734859e8b516d352dec7d60850a363ef617ed13f85a1a3a7e3683d0b208d330679a60bb589e16011cd
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
