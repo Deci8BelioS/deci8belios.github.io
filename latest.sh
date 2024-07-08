@@ -36,7 +36,6 @@ repositories=(
     "dayanch96/uYouLocalization"
     "BandarHL/BHTwitter"
     "BandarHL/BHInstagram"
-    "arichornlover/YouTube-Reborn-v5"
     "Lessica/TrollSpeed"
     "dayanch96/YTLite"
     "dayanch96/YTMusicUltimate"
