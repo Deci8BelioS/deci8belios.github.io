@@ -1540,6 +1540,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 4.5
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 2568
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_4.5_iphoneos-arm.deb
+Size: 519824
+MD5sum: 981feb775919819790777273b30a6182
+SHA1: d7e53da37399ec4adb375f01d42b67b2ca574426
+SHA256: 6756d2ec64346f8a48c24859b615e5eb689533677f8c489ef6c654c40c7b5de8
+SHA512: 5ef0c34220dc8bc1612b4100a8de0ec70f28f07e82a894f9083edd53ae27509e3c85dbdd34518e1e8600e67b281e9f956e7e65e03ada79fa86a67c9301c9bcfb
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -3590,6 +3607,23 @@ MD5sum: 3555d541f229abbfc574de0f80be79a3
 SHA1: 428a52de1fe0fd94fe9b20f43eeadbd1a669a333
 SHA256: 42e323fe56d2f0ace9da64a319cf9f836832104b95a201914e1d32b0250efd9b
 SHA512: 86c8e1837509cfebc1248b7ea06885ad47b098e4723a645bb60426f7f6a5744aaaba97d9f933b14193ffc16f52d2934bcff353efb6454b93e1c04d8558b1fb4e
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 4.5
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 2568
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_4.5_iphoneos-arm64.deb
+Size: 519052
+MD5sum: d0275b54c9a62712199670d15f134ab7
+SHA1: 706c59db80940855593d9d4dff34d65953f1e027
+SHA256: 4d79c4d82abd5e309cc23648c08281d9f06553fd1dcab8f3562846f33fcccca1
+SHA512: 0c3ca48881b5780606bf60a456b3b1cba311e77ec2082fe5a73b0436fae9502bc8ce5ae35529566a2a4e3d8b0c0f652c588185406c7ff8e0b0df8338382d1b36
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
