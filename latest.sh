@@ -44,6 +44,7 @@ repositories=(
     "khanhduytran0/TrollPad"
     "khanhduytran0/CAPerfHUD"
     "whoeevee/EeveeSpotify"
+    "raulsaeed/TikTokPlusPlus"
 )
 
 # Crear la estructura de directorios
