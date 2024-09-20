@@ -2182,6 +2182,23 @@ Description: Helper utility to install and manage TrollStore!
 Name: TrollStore Helper
 Author: opa334
 
+Package: com.raulsaeed.bhtiktok++
+Architecture: iphoneos-arm64
+Version: 1.0-5+debug
+Section: Tweaks
+Maintainer: raul saeed
+Installed-Size: 916
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./pool/iphoneos-arm64/com.raulsaeed.bhtiktok++_1.0-5+debug_iphoneos-arm64.deb
+Size: 131632
+MD5sum: e486dfc34e648dda29b8439842ff0276
+SHA1: 783a8915245d0f9c8c1928c817fd804e2a7a535a
+SHA256: d5b0a8b0a91717a8186032fe13f61e1c4b419ee3e23419b42dae9e6bfe060679
+SHA512: 8760e7fc976d4b60fbceeb46df525e7f9b8b77324432eddc87cf40fda8e248940395357ac28ee7e70fb145c3ec5e2595a23da3aea44757877be6d82a62a771c4
+Description: An awesome tweak for TikTok!
+Name: BHTikTok++
+Author: raul saeed
+
 Package: h.ryan.youtubereborn
 Architecture: iphoneos-arm64
 Version: 4.2.4
