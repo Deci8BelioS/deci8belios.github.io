@@ -1372,6 +1372,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 5.3
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_5.3_iphoneos-arm64.deb
+Size: 562904
+MD5sum: 161bd4c17a604185eb48e430e32d21e9
+SHA1: 1518111e44dd20e792cba9365d319c0aa988823b
+SHA256: b4efd264d18a681172727cbf2d3f38f0a96a42cbb74ba19e099e905477c79abf
+SHA512: fde484f96f8c664d0d4c478d2c4b7111b65ba8b32f7227176e62b24f3a6720e9e9c6f0ad446410df59370b8cd56f7aed98310f6e74d617079038bd53d3172627
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm64
 Version: 1.3.1
@@ -2362,6 +2379,23 @@ MD5sum: e96d2861c20ad33e1f0eb15b372478e7
 SHA1: f161ca3239740fe4ebb858d50cd1d12577da8b71
 SHA256: 9656de5e818241d8005d5cb4a6f8723dcc12274b38e79dd076d0f3caf87a40d5
 SHA512: 5b85167d27626809380a30dc3402d8559deedbd0a269a2aac91eeb414d80145f28f1c37200e3dc04ee24755c091c5da92d3ec6c4a28ddd757a88805a3cc076cd
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 1.28.1
+Section: System
+Maintainer: eevee
+Installed-Size: 10028
+Filename: ./pool/iphoneos-arm64/org.swift.protobuf.swiftprotobuf_1.28.1_iphoneos-arm64.deb
+Size: 1429912
+MD5sum: 2ae206a1a86ee7fa04af6038a8c41fd0
+SHA1: a4e5e847b4fa7ec05d34cff0f41b174bb9199b43
+SHA256: 2832730603d8f880405fd0bac4f5f86d8f4ceebd9e98253aa072237e060eb48d
+SHA512: 20af3c9c68d517a0575a8ddd5f30e29321b5f923edfba5430fbc97d415d42b949deb01a02c8f11ec7bed7436a51d5d1956d4070f5b8345f24cac7df7771053a2
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf

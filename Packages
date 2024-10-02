@@ -1733,6 +1733,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 5.3
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_5.3_iphoneos-arm.deb
+Size: 563048
+MD5sum: 9f5fac5b8f907d2098129508881c09e7
+SHA1: 33274958165cd1e46926e34ea3ea9acd79605fb3
+SHA256: 616fc7970c1b775dd5616bc6cdda897b947dc85d05d4c640a391a8043b3435ee
+SHA512: 102aede18966c5a156362c64f04e2d4a29a47366ee1699cd8c6552fd68c8f3ff2745b5b9dae613292f49639354e6da1bed811ee6a8e9d52757a13bf07cd3f0e9
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -2704,6 +2721,23 @@ MD5sum: 97fe34c4118976faffb5b7f8a0facf6e
 SHA1: 05a7ef3175de9b100281e2ba992c76869c265aa4
 SHA256: c93ea1390d6ffe376486875ad587e1742a28ad0fae671df930602c304fa0556e
 SHA512: 0b111d92afec21026625089bc4cf5ce5701302a021318150f87daf3fa236086bc7f21e1059773042b0fe03492c58ee5ba71653714e79c67b9276182071466739
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm
+Version: 1.28.1
+Section: System
+Maintainer: eevee
+Installed-Size: 10028
+Filename: ./pool/iphoneos-arm/org.swift.protobuf.swiftprotobuf_1.28.1_iphoneos-arm.deb
+Size: 1430840
+MD5sum: 5c2db88887562db4fac2041a49e707c0
+SHA1: fb7ce58e06f99e6a976dc876e209e603b19f5d81
+SHA256: 568a026e1820b3214cd780fd2bbe69c1d689f176c409fb146fe29e7707e51aae
+SHA512: 86b74edb29fda14d8b69fddaac9d8b9bda6828d47dd63fca36001a0d936e7a6f5ada5ce3c2570aab9421848ea1335a1c3d299e4fc6d36d94da7d5c0a640a65c8
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
@@ -4083,6 +4117,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 5.3
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_5.3_iphoneos-arm64.deb
+Size: 562904
+MD5sum: 161bd4c17a604185eb48e430e32d21e9
+SHA1: 1518111e44dd20e792cba9365d319c0aa988823b
+SHA256: b4efd264d18a681172727cbf2d3f38f0a96a42cbb74ba19e099e905477c79abf
+SHA512: fde484f96f8c664d0d4c478d2c4b7111b65ba8b32f7227176e62b24f3a6720e9e9c6f0ad446410df59370b8cd56f7aed98310f6e74d617079038bd53d3172627
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm64
 Version: 1.3.1
@@ -5073,6 +5124,23 @@ MD5sum: e96d2861c20ad33e1f0eb15b372478e7
 SHA1: f161ca3239740fe4ebb858d50cd1d12577da8b71
 SHA256: 9656de5e818241d8005d5cb4a6f8723dcc12274b38e79dd076d0f3caf87a40d5
 SHA512: 5b85167d27626809380a30dc3402d8559deedbd0a269a2aac91eeb414d80145f28f1c37200e3dc04ee24755c091c5da92d3ec6c4a28ddd757a88805a3cc076cd
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
+
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 1.28.1
+Section: System
+Maintainer: eevee
+Installed-Size: 10028
+Filename: ./pool/iphoneos-arm64/org.swift.protobuf.swiftprotobuf_1.28.1_iphoneos-arm64.deb
+Size: 1429912
+MD5sum: 2ae206a1a86ee7fa04af6038a8c41fd0
+SHA1: a4e5e847b4fa7ec05d34cff0f41b174bb9199b43
+SHA256: 2832730603d8f880405fd0bac4f5f86d8f4ceebd9e98253aa072237e060eb48d
+SHA512: 20af3c9c68d517a0575a8ddd5f30e29321b5f923edfba5430fbc97d415d42b949deb01a02c8f11ec7bed7436a51d5d1956d4070f5b8345f24cac7df7771053a2
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
