@@ -1,3 +1,22 @@
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 828
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/Rootless.com.dvntm.infuseplus_1.3.0_iphoneos-arm64.deb
+Size: 217080
+MD5sum: 71107ca83186f60fafdd47c54bd56c2c
+SHA1: bfffd9e61cf26db56ee45d83e73a09e7622958df
+SHA256: 6800f93c891e2c33b634f892efd607f5a7dde34398b80732358b033710c08e91
+SHA512: a45afbed15381f6c5395c3bd7005ce41896f1823feeb8672e03e18ad481e0928e8fc915c86fe8068c16b114762934221109acb4f29cc63d7a793e4c9a1b41ecb
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
 Package: ch.xxtou.hudapp.jb
 Architecture: iphoneos-arm64
 Version: 1.12.0

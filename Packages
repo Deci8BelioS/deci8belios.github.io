@@ -1,3 +1,22 @@
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm
+Version: 1.3.0
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 828
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/Rootful.com.dvntm.infuseplus_1.3.0_iphoneos-arm.deb
+Size: 216490
+MD5sum: 049ff2db35d5dcfa6656db40108dfbd6
+SHA1: c983ced5fafd16cd8155540d8172fd547dbc630a
+SHA256: 935f10a400c652524ec6989fad9d66ad5e25c68e318e356e7ae9d11dd15ae748
+SHA512: 2e70e0215ae852a247e56968de02629597fbb332779fcc6279890540f4dd0f11c23800d87ff8b941131c92a3c82222d61e944f1b8099b07d476e2f6936b3ec4c
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
 Package: com.bandarhl.bhtiktok
 Architecture: iphoneos-arm
 Version: 2.1
@@ -2827,6 +2846,25 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Name: SwiftProtobuf
 Author: eevee
+
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 828
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/Rootless.com.dvntm.infuseplus_1.3.0_iphoneos-arm64.deb
+Size: 217080
+MD5sum: 71107ca83186f60fafdd47c54bd56c2c
+SHA1: bfffd9e61cf26db56ee45d83e73a09e7622958df
+SHA256: 6800f93c891e2c33b634f892efd607f5a7dde34398b80732358b033710c08e91
+SHA512: a45afbed15381f6c5395c3bd7005ce41896f1823feeb8672e03e18ad481e0928e8fc915c86fe8068c16b114762934221109acb4f29cc63d7a793e4c9a1b41ecb
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
 
 Package: ch.xxtou.hudapp.jb
 Architecture: iphoneos-arm64
