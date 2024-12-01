@@ -1055,6 +1055,25 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.json
 
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm64
+Version: 5.1
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 16344
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/com.dvntm.ytlite_5.1_iphoneos-arm64.deb
+Size: 6182104
+MD5sum: e35f08aa8c4f5be01291059b892eeea6
+SHA1: 7a744a32a1c6ebb92f6e1cb0d108b20ea3d4a3fb
+SHA256: 8c1bc7bdae023d5f4e1dad9e371dba9ef6e107f63a7a71604dd30bcf1361db67
+SHA512: 81e06c7a8c3b29d7d454f4c464deb2db899821694a42836ef41b2d3a95f0b741e9b06f45a1138a61dc2f780376924c6d7944ed013db05a388ec292f757e8db40
+Description: Lightweight YouTube Enhancer
+Name: YTLite
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.eevee.spotify
 Architecture: iphoneos-arm64
 Version: 1.1
