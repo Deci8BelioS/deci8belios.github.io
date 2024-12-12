@@ -1930,6 +1930,23 @@ Author: Eevee
 
 Package: com.eevee.spotify
 Architecture: iphoneos-arm
+Version: 5.8.3
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 1588
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_5.8.3_iphoneos-arm.deb
+Size: 395578
+MD5sum: c718f2abc1b8fe0bf033106518784318
+SHA1: c8cdf840f9c06a42e00ca37709d642642f56e877
+SHA256: 7446582ac305d6f9f0bec0544d41d064f7a32269736ca1b1a382b245a5c6b75c
+SHA512: 263238ac8a34262ba95043265eaf79d6ad932aba3b9de9f227280c8f03931f80d9ac7348bb869c6cca3da322cd7366eb87e24f013f47821a5ba64b592d728b5a
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
 Version: 5.8
 Section: Tweaks
 Maintainer: Eevee
@@ -4556,6 +4573,23 @@ MD5sum: 4a3dca8674c671613645403eb5898d28
 SHA1: 098570a4f6cde53861232c85cc3dfd6b67ce491e
 SHA256: 3ca852562c51f557e76cb3c4098670846ad2801d696ce564f60cd7adc875f364
 SHA512: 33a2ba60fa2c8c2530e11a519816d3f93ff0020397846ef1a786174ea4a13b56bfd863c478be06acdbc5c89ab879a3fa454f5ce0c9b844e1939662247bca27c3
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 5.8.3
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 1588
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_5.8.3_iphoneos-arm64.deb
+Size: 395826
+MD5sum: f6531a86f501e4e8251ed6baf07cb7c8
+SHA1: 60bedf4932d0abc743020909bdafeb8959822fc9
+SHA256: 8ca73828686a55a23cc32c36a4e4284ffc8547dfea7dfda4893fcb53f901c297
+SHA512: 2666a5eb818af177bd19ad6ec0cfaf320ea60d9f8d03ec302bf74b0f32fcf8ab22d7b683ade1abbab51aeb9ae31e4296bf522bc795e9dd21d3ff6ebd8bc858f5
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
