@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: decibelios-repo
 Components: main
-Date: Sat, 11 Jan 2025 18:13:50 +0000
+Date: Sun, 12 Jan 2025 00:58:53 +0000
 Description: DeciBelioS - REPO
 Label: DeciBelioS - REPO
 Origin: DeciBelioS - REPO
@@ -15,7 +15,7 @@ MD5Sum:
  4c3dcb0176fc50bccf73c126da42c0a1            30473 Packages.lzma
  c3b1207a9cb31998468d95335d701736            30520 Packages.xz
  44e5aa735e57b9fc00fc37176eeb779e            30255 Packages.zst
- 8e565ffd80130a2dca35d35d0f13eb61              233 Release
+ c85a7fe4b5a33e2c234dfa1f45a25e96              233 Release
 SHA1:
  bcbbcdee16fe3a552b64b249e055c937b5066bb0           127809 Packages
  d1453f30d1d8fa99101e4a53af35ab0750298b72            31327 Packages.bz2
@@ -24,7 +24,7 @@ SHA1:
  8511988e653845b4e2a587b071ae69c9093f3ff3            30473 Packages.lzma
  4f8a9a4b203bb6f1d6ba6ab8e55519108170ca3b            30520 Packages.xz
  a30657e9d893b0e64a105d8a08a73d5fe19b213f            30255 Packages.zst
- b2ba0b95b34dda0ebd4f54e72f3479da27a10729              233 Release
+ d86f59708b40973820a99bd7b36961dc0ad6c180              233 Release
 SHA256:
  3a502be8fc436f64e6487cb3327d805f25afd385dd25abd28c1b28ecf7c71913           127809 Packages
  4d0f40bef070facd2ff38d19c3d7e09abff56ef545a95fc0bc9626b03cf0f725            31327 Packages.bz2
@@ -33,7 +33,7 @@ SHA256:
  bcf4805e2d8bfb7bc26f12cfef5ec5186d2a1677e3eb3d90f291774309075b46            30473 Packages.lzma
  d44995c92402b7247b55caeac9d5c779f5057847335824e6d71c0381af0d0b73            30520 Packages.xz
  31404c4486c9375b4321424642aaeba206f1540fcf3c54a5883839ca3ebccd66            30255 Packages.zst
- 8d9e8380b7834b2c071f570c988b1580598ec346ce967b490dbabb6ee319c471              233 Release
+ 43a467ef41cee4b96d5ac4eb11a715bd86dcb478c7cf9eb3152d7be2f5b6ebe2              233 Release
 SHA512:
  654f63973bbb727818c15f1133ac014dbcd44cce0588597d4d2b5c6ae4a5cc3de6d0377b2d60ba4e8d527d8fe2ea3ed791b13f39bd991d42ee4e7b1ad54f3af6           127809 Packages
  adb49e2bbb6588ae81d95c5810d289c807d53235515e8256c134af291bff8375224706ee891f67a13f6e4be352e0ed8bacd1f9f9a73c5c257a97286e4ab3258a            31327 Packages.bz2
@@ -42,4 +42,4 @@ SHA512:
  2418ee45d8481eb10f90dfa09a9a1b9df9288e6aa436099837cd31d48f170224ea1212f5eee0cbd3b0bfdff34f6070ba850986cc3bb6b1030d0c25c62628485b            30473 Packages.lzma
  1df10f5374e9a8bd6d65e51a1d583525052338457fac75f8cd0672bd7c03eb9bbf4d1010506394b0aa54d718272e74e4f6e20e0d577ce70df90a450798ecc794            30520 Packages.xz
  51056dfb1fd945a386d77cce2360d86822b366b223872dba416064a4384647f8b2cf20c53280d8c0e2cd63160ad2f04e28697c75c017009f79102e776f32d7da            30255 Packages.zst
- e0a612945f4a7ac203957acc9bf8e5b2609ae131aca3d901e9997117a96800631e4b8ab466988b157c96e983d1e15e6a2ca9695d7fdb3ad4748c58ab4e0e33af              233 Release
+ ac97a27d72d0dffb4ccc56f5f21336ec25d115d163433bd46f7a82864557e2c79681f233b4258fc62ea3388bed92ae684529a7ec1e1084e466a9342bb34f771d              233 Release
