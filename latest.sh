@@ -45,6 +45,7 @@ repositories=(
     "khanhduytran0/CAPerfHUD"
     "whoeevee/EeveeSpotify"
     "raulsaeed/TikTokPlusPlus"
+    "arichornlover/YouTube-Reborn-v5"
 )
 
 # Crear la estructura de directorios
