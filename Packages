@@ -1160,6 +1160,25 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
 
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm
+Version: 2.4
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 1248
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.infuseplus_2.4_iphoneos-arm.deb
+Size: 445474
+MD5sum: f355a0e8f5891633a56047d942169144
+SHA1: 2e1c6103ae1b066a6035cfe2b82a4cdb4a672dfe
+SHA256: fe11aba6e3a65527c9f10e3e38c84013833c0df97344d2d8c89b4a276db983c5
+SHA512: 1ce68cabab005e5ea12797cd42b267f215ae37ca2ce266eeb5776c95a24b85e8bb2959bef805e423693d7ee6170200aa3e7afface79855ac7c7f100d07506445
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
 Package: com.dvntm.uyoulocalization
 Architecture: iphoneos-arm
 Version: 3.0.1
@@ -4438,6 +4457,25 @@ MD5sum: 2b17c237152b68cef00f31c11e962fdb
 SHA1: 46d0e32caae6dba1709d68a8a61c20b63727d8a6
 SHA256: 2854e5298319416821f369a838311b554e7888727528b7e1ad073c311e68c929
 SHA512: 3e07f6196a2e1e261442b04b0dde5c8b730c53abb8be6b3e9ffdbfab1ccf17b93bad1c7a83065a144e76a4cc50cf877562a768067c959f3acf64daa47ec2fd47
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm64
+Version: 2.4
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 1248
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/com.dvntm.infuseplus_2.4_iphoneos-arm64.deb
+Size: 445656
+MD5sum: 67c941de7ada91ed71f1180b65ba8f77
+SHA1: a57d4b0be36e602826cf73e1e27586dc3df7280c
+SHA256: 1fd7b39a727cf4259797810ff8f2e020883f7feb5a17d543ded76e4dcc223183
+SHA512: 1d4a1efe976dee2b32dbfbf0880aebbb7ac98811f6fd6ef23308f44a41980b086e6645acff5069545bb97a18bf3fbfdbbc63859aaf204c15a682d9589e419684
 Description: Enhancer for Infuse app
 Name: Infuse Plus
 Author: dvntm
