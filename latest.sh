@@ -44,7 +44,7 @@ repositories=(
     "khanhduytran0/TrollPad"
     "khanhduytran0/CAPerfHUD"
     "whoeevee/EeveeSpotifyReborn"
-    "raulsaeed/TikTokPlusPlus"
+    "raulsaeed/BHTikTokPlusPlus"
     "arichornlover/YouTube-Reborn-v5"
 )
 
