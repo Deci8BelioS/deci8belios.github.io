@@ -9,11 +9,11 @@
     <style>
         :root {
             --primary-glow-color: rgb(0 255 255);
-            --glass-bg: #c9c9c915;
+            --glass-bg: #c9c9c920;
             --glass-border: #c9c9c925;
             --text-primary: #f0f0f0;
             --text-secondary: #cccccc;
-            --blur-intensity: 25px;
+            --blur-intensity: 15px;
             --border-radius: 24px;
             --text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         }
@@ -32,7 +32,7 @@
             min-height: 100vh;
             flex-direction: column;
             padding: 20px;
-            overflow: hidden;
+            overflow-x: hidden;
         }
         .background-aurora {
             position: fixed;
@@ -73,31 +73,30 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 40px;
+            gap: 30px;
             width: 100%;
             max-width: 500px;
+            padding-top: 20px;
         }
         .glass-card {
             background: var(--glass-bg);
-            backdrop-filter: blur(var(--blur-intensity)) saturate(1.5);
-            -webkit-backdrop-filter: blur(var(--blur-intensity)) saturate(1.5);
             border: 1px solid var(--glass-border);
             border-radius: var(--border-radius);
-            padding: 32px;
+            padding: 30px;
             text-align: center;
             box-shadow: 0 8px 32px #00000065;
             width: 100%;
             transition: all 0.3s ease;
         }
         .glass-card h1 {
-            font-size: 2.5em;
+            font-size: 2.2em;
             font-weight: 700;
             margin-bottom: 12px;
             color: #fff;
             text-shadow: var(--text-shadow), 0 0 15px var(--primary-glow-color);
         }
         .glass-card p {
-            font-size: 1.2em;
+            font-size: 1.1em;
             color: var(--text-secondary);
             font-weight: 500;
             text-shadow: var(--text-shadow);
@@ -106,7 +105,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 30px;
+            gap: 20px;
             width: 100%;
         }
         .package-item {
@@ -118,12 +117,14 @@
             text-decoration: none;
             color: var(--text-primary);
             background: var(--glass-bg);
-            backdrop-filter: blur(var(--blur-intensity)) saturate(1.5);
-            -webkit-backdrop-filter: blur(var(--blur-intensity)) saturate(1.5);
+            backdrop-filter: blur(var(--blur-intensity));
+            -webkit-backdrop-filter: blur(var(--blur-intensity));
             border: 1px solid var(--glass-border);
             border-radius: var(--border-radius);
             box-shadow: 0 4px 16px #00000065;
             transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+            flex-grow: 1;
+            max-width: 150px;
         }
         .package-item:hover {
             transform: translateY(-8px);
@@ -131,23 +132,112 @@
             box-shadow: 0 0 25px var(--primary-glow-color);
         }
         .package-item img {
-            width: 64px;
-            height: 64px;
+            width: 60px;
+            height: 60px;
             border-radius: 16px;
             filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
             transition: transform 0.3s ease;
         }
         .package-item:hover img {
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
         .package-item p {
             font-size: 1em;
             font-weight: 500;
             text-shadow: var(--text-shadow);
         }
+        .tweaks-list-card {
+            text-align: left;
+            max-height: 425px;
+            overflow-y: auto;
+        }
+        .tweaks-list-card::-webkit-scrollbar {
+            width: 8px;
+        }
+        .tweaks-list-card::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .tweaks-list-card::-webkit-scrollbar-thumb {
+            background-color: var(--glass-border);
+            border-radius: 10px;
+            border: 2px solid transparent;
+            background-clip: content-box;
+        }
+        .tweaks-list-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: var(--text-shadow);
+            position: sticky;
+            top: -1px;
+            border-radius: 12px;
+            background: var(--glass-bg);
+            padding: 10px 0;
+            margin: -15px 0px 20px 0px;
+            backdrop-filter: blur(var(--blur-intensity));
+            border: 1px solid var(--glass-border);
+        }
+        .tweaks-list-card ul {
+            list-style: none;
+        }
+        .tweaks-list-card li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .tweaks-list-card li:last-child {
+            border-bottom: none;
+        }
+        .tweak-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+        .tweak-info {
+            flex-grow: 1;
+            min-width: 0;
+        }
+        .tweak-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+            gap: 8px;
+        }
+        .tweak-header strong {
+            font-size: 1em;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .tweak-header span {
+            font-weight: 500;
+            font-size: 0.85em;
+            color: var(--primary-glow-color);
+            background-color: #00ffff1a;
+            padding: 2px 6px;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+        .tweak-info p {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+        .no-tweaks {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+        }
         .social {
-            position: absolute;
-            bottom: 20px;
+            position: relative;
+            margin-top: 20px;
+            padding-bottom: 20px;
         }
         .social a {
             display: flex;
@@ -174,6 +264,42 @@
         .social a:hover svg {
             fill: #fff;
         }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .main-container {
+                gap: 25px;
+                padding-top: 0;
+            }
+            .glass-card {
+                padding: 15px;
+            }
+            .glass-card h1 {
+                font-size: 1.8em;
+            }
+            .glass-card p {
+                font-size: 1em;
+            }
+            .packagemanager {
+                gap: 15px;
+            }
+            .package-item {
+                padding: 15px;
+                gap: 10px;
+            }
+            .package-item img {
+                width: 50px;
+                height: 50px;
+            }
+            .tweaks-list-card {
+                max-height: 47vh;
+            }
+            .tweaks-list-card h2 {
+                margin: -15px 0px 20px 0px;
+                padding: 10px 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -182,6 +308,188 @@
         <div class="glass-card">
             <h1>DeciBelioS - REPO</h1>
             <p>Repository of Tweaks for iOS.</p>
+        </div>
+        <div class="glass-card tweaks-list-card">
+            <h2>Latest Tweaks</h2>
+            <ul>
+                
+        <li>
+            <img src="Icon.png" alt="BHInsta icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>BHInsta</strong>
+                    <span>v1.2</span>
+                </div>
+                <p>An awesome tweak for Instagram!</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="https://i.imgur.com/PKIhkrt.png" alt="BHTikTok Plus icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>BHTikTok Plus</strong>
+                    <span>v2.3</span>
+                </div>
+                <p>An awesome tweak for TikTok!</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="BHTikTok++ icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>BHTikTok++</strong>
+                    <span>v1.9.3</span>
+                </div>
+                <p>An awesome tweak for TikTok!</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="BHTwitter icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>BHTwitter</strong>
+                    <span>v4.4-1+debug</span>
+                </div>
+                <p>Awesome tweak for Twitter</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="CAPerfHUDModule icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>CAPerfHUDModule</strong>
+                    <span>v1.0.0</span>
+                </div>
+                <p>Enable system-wide performance HUD from the control center.</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="EeveeSpotify icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>EeveeSpotify</strong>
+                    <span>v6.1</span>
+                </div>
+                <p>A tweak to get Spotify Premium for free, just like Spotilife</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png" alt="Infuse Plus icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>Infuse Plus</strong>
+                    <span>v2.4</span>
+                </div>
+                <p>Enhancer for Infuse app</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="SwiftProtobuf icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>SwiftProtobuf</strong>
+                    <span>v1.29.0</span>
+                </div>
+                <p>Plugin and runtime library for using protobuf with Swift</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="TrollPad icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>TrollPad</strong>
+                    <span>v1.3</span>
+                </div>
+                <p>Troll SpringBoard into thinking it's running on iPadOS.</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="TrollSpeed icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>TrollSpeed</strong>
+                    <span>v1.11.11</span>
+                </div>
+                <p>Troll your speed, but jailbroken.</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="TrollSpeed JB icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>TrollSpeed JB</strong>
+                    <span>v1.12.1</span>
+                </div>
+                <p>Troll your speed, but jailbroken.</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="TrollStore Helper icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>TrollStore Helper</strong>
+                    <span>v2.1</span>
+                </div>
+                <p>Helper utility to install and manage TrollStore!</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="uYouLocalization icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>uYouLocalization</strong>
+                    <span>v3.0.3</span>
+                </div>
+                <p>Localization support for uYou tweak.</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="Icon.png" alt="YouTube Reborn icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>YouTube Reborn</strong>
+                    <span>v4.2.9</span>
+                </div>
+                <p>YouTube Customizer</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png" alt="YTLite icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>YTLite</strong>
+                    <span>v5.2b3</span>
+                </div>
+                <p>Lightweight YouTube Enhancer</p>
+            </div>
+        </li>
+        
+        <li>
+            <img src="https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png" alt="YTMusicUltimate icon" class="tweak-icon" onerror="this.src='Icon.png';">
+            <div class="tweak-info">
+                <div class="tweak-header">
+                    <strong>YTMusicUltimate</strong>
+                    <span>v2.3.1</span>
+                </div>
+                <p>YouTube Music Premium</p>
+            </div>
+        </li>
+        
+            </ul>
         </div>
         <div class="packagemanager">
             <a href="sileo://source/https://deci8belios.github.io/" target="_blank" class="package-item">
