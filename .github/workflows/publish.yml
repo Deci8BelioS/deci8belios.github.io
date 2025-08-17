@@ -9,14 +9,14 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  download_and_upload:
+  build_and_deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+      
     steps:
       - name: Comprobación principal
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4
 
       - name: Importar clave GPG
         id: import_gpg
@@ -32,17 +32,22 @@ jobs:
           chmod +x latest.sh
           ./latest.sh
 
+      - name: Actualizar página HTML con la lista de tweaks
+        run: |
+          pip install packaging
+          python3 update_html.py
+
       - name: Establecer la identidad del usuario Git
         run: |
           git config --global user.name "${{ secrets.GIT_USER_NAME }}"
           git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Aplicar cambios
+      - name: Aplicar cambios y subir al repositorio
         run: |
           git add .
-          git commit --m "Actualizar archivos desde GitHub Actions"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Actualizar repositorio y página web desde Actions"
+            git push origin main
+          else
+            echo "No hay cambios para subir."
+          fi
