@@ -1,9 +1,7 @@
 name: Actualizar repositorio iOS
 
 on:
-  # Schedule updates (4 hours)
   schedule: [{cron: "0 */6 * * *"}]
-  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   
 concurrency:
@@ -15,17 +13,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
       - name: Comprobación principal
         uses: actions/checkout@v4.1.1
 
-      - name: Ejecutar script de descarga y carga
+      - name: Importar clave GPG
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+
+      - name: Ejecutar script de descarga y empaquetado
+        env:
+          GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
         run: |
           chmod +x latest.sh
           ./latest.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Establecer la identidad del usuario Git
         run: |
@@ -37,7 +42,7 @@ jobs:
       - name: Aplicar cambios
         run: |
           git add .
-          git commit -m "Actualizar archivos desde GitHub Actions"
+          git commit --m "Actualizar archivos desde GitHub Actions"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
