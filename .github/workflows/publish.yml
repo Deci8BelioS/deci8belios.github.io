@@ -28,6 +28,7 @@ jobs:
       - name: Ejecutar script de descarga y empaquetado
         env:
           GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
           chmod +x latest.sh
           ./latest.sh
