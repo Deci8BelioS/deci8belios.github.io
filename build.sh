@@ -59,8 +59,8 @@ done
 echo "[*] Firma de release mediante clave GPG..."
 for d in "${dirs[@]}"; do
     set_arch_vars "$d"
-    gpg -abs -u $GPG_KEY -o $output_dir/Release.gpg $output_dir/Release
-    gpg -abs -u $GPG_KEY --clearsign -o $output_dir/InRelease $output_dir/Release
+    gpg --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" --batch --yes -abs -u "$GPG_KEY" -o "$output_dir/Release.gpg" "$output_dir/Release"
+    gpg --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" --batch --yes --clearsign -u "$GPG_KEY" -o "$output_dir/InRelease" "$output_dir/Release"
 done
 
 echo "[*] ¡Hecho!"
