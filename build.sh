@@ -1,5 +1,5 @@
 #!/bin/bash
-GPG_KEY="EF6B6FC67D601586841C19EB83EFDEAEB3541290"
+GPG_KEY="$GPG_FINGERPRINT"
 OUTPUT_DIR="."
 
 script_full_path=$(dirname "$0")
