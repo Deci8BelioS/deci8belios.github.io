@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeciBelioS - REPO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700">
+    <style>
+        :root {
+            --primary-glow-color: rgb(0 255 255);
+            --glass-bg: #c9c9c920;
+            --glass-border: #c9c9c925;
+            --text-primary: #f0f0f0;
+            --text-secondary: #cccccc;
+            --blur-intensity: 15px;
+            --border-radius: 24px;
+            --text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #121212;
+            font-family: "Quicksand", sans-serif;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            flex-direction: column;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        .background-aurora {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .background-aurora::before,
+        .background-aurora::after {
+            content: '';
+            position: absolute;
+            width: 120vmax;
+            height: 120vmax;
+            border-radius: 50%;
+            background-image: radial-gradient(circle, var(--primary-glow-color), transparent 60%);
+            filter: blur(100px) saturate(1.5) brightness(1.5);
+            opacity: 0.3;
+            animation: move-aurora 25s linear infinite;
+        }
+        .background-aurora::after {
+            background-image: radial-gradient(circle, rgb(179 0 255), transparent 60%);
+            animation-name: move-aurora-2;
+            animation-duration: 30s;
+        }
+        @keyframes move-aurora {
+            0% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+            50% { transform: translate(-20%, -30%) rotate(180deg) scale(1.2); }
+            100% { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+        }
+        @keyframes move-aurora-2 {
+            0% { transform: translate(0%, 0%) rotate(0deg) scale(1.2); }
+            50% { transform: translate(20%, 30%) rotate(-180deg) scale(1); }
+            100% { transform: translate(0%, 0%) rotate(-360deg) scale(1.2); }
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            max-width: 500px;
+            padding-top: 20px;
+        }
+        .glass-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 8px 32px #00000065;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        .glass-card h1 {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #fff;
+            text-shadow: var(--text-shadow), 0 0 15px var(--primary-glow-color);
+        }
+        .glass-card p {
+            font-size: 1.1em;
+            color: var(--text-secondary);
+            font-weight: 500;
+            text-shadow: var(--text-shadow);
+        }
+        .packagemanager {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+        }
+        .package-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            text-decoration: none;
+            color: var(--text-primary);
+            background: var(--glass-bg);
+            backdrop-filter: blur(var(--blur-intensity));
+            -webkit-backdrop-filter: blur(var(--blur-intensity));
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 16px #00000065;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+            flex-grow: 1;
+            max-width: 150px;
+        }
+        .package-item:hover {
+            transform: translateY(-8px);
+            background: rgba(40, 40, 50, 0.4);
+            box-shadow: 0 0 25px var(--primary-glow-color);
+        }
+        .package-item img {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+            transition: transform 0.3s ease;
+        }
+        .package-item:hover img {
+            transform: scale(1.1);
+        }
+        .package-item p {
+            font-size: 1em;
+            font-weight: 500;
+            text-shadow: var(--text-shadow);
+        }
+        .tweaks-list-card {
+            text-align: left;
+            max-height: 425px;
+            overflow-y: auto;
+        }
+        .tweaks-list-card::-webkit-scrollbar {
+            width: 8px;
+        }
+        .tweaks-list-card::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .tweaks-list-card::-webkit-scrollbar-thumb {
+            background-color: var(--glass-border);
+            border-radius: 10px;
+            border: 2px solid transparent;
+            background-clip: content-box;
+        }
+        .tweaks-list-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: var(--text-shadow);
+            position: sticky;
+            top: -1px;
+            border-radius: 12px;
+            background: var(--glass-bg);
+            padding: 10px 0;
+            margin: -15px 0px 20px 0px;
+            backdrop-filter: blur(var(--blur-intensity));
+            border: 1px solid var(--glass-border);
+        }
+        .tweaks-list-card ul {
+            list-style: none;
+        }
+        .tweaks-list-card li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .tweaks-list-card li:last-child {
+            border-bottom: none;
+        }
+        .tweak-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+        .tweak-info {
+            flex-grow: 1;
+            min-width: 0;
+        }
+        .tweak-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+            gap: 8px;
+        }
+        .tweak-header strong {
+            font-size: 1em;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .tweak-header span {
+            font-weight: 500;
+            font-size: 0.85em;
+            color: var(--primary-glow-color);
+            background-color: #00ffff1a;
+            padding: 2px 6px;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+        .tweak-info p {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+        .no-tweaks {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+        }
+        .social {
+            position: relative;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+        .social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: #00000020;
+            box-shadow: 0 4px 8px #00000065;
+            transition: all 0.3s ease;
+        }
+        .social a:hover {
+            background-color: #00000050;
+            transform: scale(1.2);
+            box-shadow: 0 0 15px var(--primary-glow-color);
+        }
+        .social a svg {
+            width: 28px;
+            height: 28px;
+            fill: var(--text-secondary);
+            transition: fill 0.3s ease;
+        }
+        .social a:hover svg {
+            fill: #fff;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .main-container {
+                gap: 25px;
+                padding-top: 0;
+            }
+            .glass-card {
+                padding: 15px;
+            }
+            .glass-card h1 {
+                font-size: 1.8em;
+            }
+            .glass-card p {
+                font-size: 1em;
+            }
+            .packagemanager {
+                gap: 15px;
+            }
+            .package-item {
+                padding: 15px;
+                gap: 10px;
+            }
+            .package-item img {
+                width: 50px;
+                height: 50px;
+            }
+            .tweaks-list-card {
+                max-height: 47vh;
+            }
+            .tweaks-list-card h2 {
+                margin: -15px 0px 20px 0px;
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-aurora"></div>
+    <div class="main-container">
+        <div class="glass-card">
+            <h1>DeciBelioS - REPO</h1>
+            <p>Repository of Tweaks for iOS.</p>
+        </div>
+        <div class="glass-card tweaks-list-card">
+            <h2>Latest Tweaks</h2>
+            <ul>
+                <!-- TWEAKS_LIST_PLACEHOLDER -->
+            </ul>
+        </div>
+        <div class="packagemanager">
+            <a href="sileo://source/https://deci8belios.github.io/" target="_blank" class="package-item">
+                <img src="sileo.png" alt="Sileo">
+                <p>Sileo</p>
+            </a>
+            <a href="zbra://sources/add/https://deci8belios.github.io/" target="_blank" class="package-item">
+                <img src="zbra.png" alt="Zebra">
+                <p>Zebra</p>
+            </a>
+        </div>
+    </div>
+    <div class="social">
+        <a href="https://github.com/Deci8BelioS" target="_blank">
+            <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+                <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.20-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+            </svg>
+        </a>
+    </div>
+</body>
+</html>
