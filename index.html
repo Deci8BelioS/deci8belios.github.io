@@ -147,9 +147,12 @@
             text-shadow: var(--text-shadow);
         }
         .tweaks-list-card {
+            padding: 0;
             text-align: left;
             max-height: 425px;
-            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
         .tweaks-list-card::-webkit-scrollbar {
             width: 8px;
@@ -165,21 +168,48 @@
         }
         .tweaks-list-card h2 {
             text-align: center;
-            margin-bottom: 20px;
             color: #fff;
             text-shadow: var(--text-shadow);
             position: sticky;
-            top: -1px;
+            top: 15px;
+            margin: 15px 30px 0 30px;
+            padding: 10px 0;
             border-radius: 12px;
             background: var(--glass-bg);
-            padding: 10px 0;
-            margin: -15px 0px 20px 0px;
+            border: 1px solid var(--glass-border);
             -webkit-backdrop-filter: blur(var(--blur-intensity));
             backdrop-filter: blur(var(--blur-intensity));
-            border: 1px solid var(--glass-border);
+            transition: all 0.2s ease-in-out;
+            z-index: 10;
+        }
+        .tweaks-list-card h2.scrolled {
+            transition: all 0.2s ease-in-out;
+            font-size: 1.2em;
+            font-weight: 500;
+            top: 0;
+            margin: 0;
+            padding: 10px 0;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .scroll-wrapper {
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+        .scroll-wrapper::-webkit-scrollbar {
+            width: 8px;
+        }
+        .scroll-wrapper::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .scroll-wrapper::-webkit-scrollbar-thumb {
+            background-color: var(--glass-border);
+            border-radius: 10px;
         }
         .tweaks-list-card ul {
             list-style: none;
+            padding: 20px 30px 30px 30px;
         }
         .tweaks-list-card li {
             padding: 10px 0;
@@ -197,6 +227,7 @@
             border-radius: 10px;
             flex-shrink: 0;
             object-fit: cover;
+            border: 1px solid var(--glass-border)
         }
         .tweak-info {
             flex-grow: 1;
@@ -223,6 +254,7 @@
             background-color: #00ffff1a;
             padding: 2px 6px;
             border-radius: 6px;
+            border: 1px solid var(--glass-border);
             flex-shrink: 0;
         }
         .tweak-info p {
@@ -237,8 +269,8 @@
         }
         .social {
             position: relative;
-            margin-top: 20px;
-            padding-bottom: 20px;
+            margin-top: 15px;
+            padding-bottom: 5px;
         }
         .social a {
             display: flex;
@@ -294,11 +326,15 @@
                 height: 50px;
             }
             .tweaks-list-card {
+                padding: 0;
                 max-height: 47vh;
             }
             .tweaks-list-card h2 {
-                margin: -15px 0px 20px 0px;
-                padding: 10px 0;
+                margin: 15px 15px 0 15px;
+                top: 15px;
+            }
+            .tweaks-list-card ul {
+                padding: 20px 15px 15px 15px;
             }
         }
     </style>
@@ -312,8 +348,9 @@
         </div>
         <div class="glass-card tweaks-list-card">
             <h2>Latest Tweaks</h2>
-            <ul>
-                
+            <div class="scroll-wrapper">
+                <ul>
+                    
         <li>
             <img src="Icon.png" alt="BHInsta icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -490,7 +527,8 @@
             </div>
         </li>
         
-            </ul>
+                </ul>
+            </div>
         </div>
         <div class="packagemanager">
             <a href="sileo://source/https://deci8belios.github.io/" target="_blank" class="package-item">
@@ -510,5 +548,19 @@
             </svg>
         </a>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const scrollWrapper = document.querySelector('.scroll-wrapper');
+            const title = document.querySelector('.tweaks-list-card h2');
+            if (!scrollWrapper || !title) return;
+            scrollWrapper.addEventListener('scroll', () => {
+                if (scrollWrapper.scrollTop > 20) {
+                    title.classList.add('scrolled');
+                } else {
+                    title.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
