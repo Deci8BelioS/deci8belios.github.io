@@ -76,18 +76,17 @@
             align-items: center;
             gap: 30px;
             width: 100%;
-            max-width: 500px;
+            max-width: 600px;
             padding-top: 20px;
         }
         .glass-card {
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             border-radius: var(--border-radius);
-            padding: 30px;
+            padding: 15px;
             text-align: center;
             box-shadow: 0 8px 32px #00000065;
             width: 100%;
-            transition: all 0.3s ease;
         }
         .glass-card h1 {
             font-size: 2.2em;
@@ -113,8 +112,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 15px;
-            padding: 20px;
+            gap: 10px;
+            padding: 15px;
             text-decoration: none;
             color: var(--text-primary);
             background: var(--glass-bg);
@@ -123,7 +122,7 @@
             border: 1px solid var(--glass-border);
             border-radius: var(--border-radius);
             box-shadow: 0 4px 16px #00000065;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
             flex-grow: 1;
             max-width: 150px;
         }
@@ -137,7 +136,7 @@
             height: 60px;
             border-radius: 16px;
             filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
-            transition: transform 0.3s ease;
+            transition: transform 0.2s ease;
         }
         .package-item:hover img {
             transform: scale(1.1);
@@ -180,7 +179,7 @@
             border: 1px solid var(--glass-border);
             -webkit-backdrop-filter: blur(var(--blur-intensity));
             backdrop-filter: blur(var(--blur-intensity));
-            transition: all 0.3s ease-in-out;
+            transition: all 0.2s ease-in-out;
             z-index: 10;
         }
         .tweaks-list-card h2.scrolled {
@@ -281,7 +280,7 @@
             border-radius: 50%;
             background-color: #00000020;
             box-shadow: 0 4px 8px #00000065;
-            transition: all 0.3s ease;
+            transition: all 0.2s ease;
         }
         .social a:hover {
             background-color: #00000050;
@@ -297,6 +296,20 @@
         .social a:hover svg {
             fill: #fff;
         }
+        @media (min-width: 601px) and (max-width: 1024px) {
+            .glass-card h1 {
+                font-size: 2.5em;
+            }
+            .glass-card p {
+                font-size: 1.2em;
+            }
+            .tweaks-list-card {
+                max-height: 46vh;
+            }
+            .packagemanager {
+                gap: 25px;
+            }
+        }
         @media (max-width: 600px) {
             body {
                 padding: 15px;
@@ -306,7 +319,7 @@
                 padding-top: 0;
             }
             .glass-card {
-                padding: 15px;
+                padding: 10px;
             }
             .glass-card h1 {
                 font-size: 1.8em;
@@ -327,7 +340,7 @@
             }
             .tweaks-list-card {
                 padding: 0;
-                max-height: 47vh;
+                max-height: 48vh;
             }
             .tweaks-list-card h2 {
                 margin: 15px 15px 0 15px;
@@ -350,7 +363,7 @@
             <h2>Latest Tweaks</h2>
             <div class="scroll-wrapper">
                 <ul>
-                    
+
         <li>
             <img src="Icon.png" alt="BHInsta icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -361,7 +374,7 @@
                 <p>An awesome tweak for Instagram!</p>
             </div>
         </li>
-        
+
         <li>
             <img src="https://i.imgur.com/PKIhkrt.png" alt="BHTikTok Plus icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -372,7 +385,7 @@
                 <p>An awesome tweak for TikTok!</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="BHTikTok++ icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -383,7 +396,7 @@
                 <p>An awesome tweak for TikTok!</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="BHTwitter icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -394,7 +407,7 @@
                 <p>Awesome tweak for Twitter</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="CAPerfHUDModule icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -405,7 +418,7 @@
                 <p>Enable system-wide performance HUD from the control center.</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="EeveeSpotify icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -416,7 +429,7 @@
                 <p>A tweak to get Spotify Premium for free, just like Spotilife</p>
             </div>
         </li>
-        
+
         <li>
             <img src="https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png" alt="Infuse Plus icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -427,7 +440,7 @@
                 <p>Enhancer for Infuse app</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="SwiftProtobuf icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -438,7 +451,7 @@
                 <p>Plugin and runtime library for using protobuf with Swift</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="TrollPad icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -449,7 +462,7 @@
                 <p>Troll SpringBoard into thinking it's running on iPadOS.</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="TrollSpeed icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -460,7 +473,7 @@
                 <p>Troll your speed, but jailbroken.</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="TrollSpeed JB icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -471,7 +484,7 @@
                 <p>Troll your speed, but jailbroken.</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="TrollStore Helper icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -482,7 +495,7 @@
                 <p>Helper utility to install and manage TrollStore!</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="uYouLocalization icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -493,7 +506,7 @@
                 <p>Localization support for uYou tweak.</p>
             </div>
         </li>
-        
+
         <li>
             <img src="Icon.png" alt="YouTube Reborn icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -504,7 +517,7 @@
                 <p>YouTube Customizer</p>
             </div>
         </li>
-        
+
         <li>
             <img src="https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png" alt="YTLite icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -515,7 +528,7 @@
                 <p>Lightweight YouTube Enhancer</p>
             </div>
         </li>
-        
+
         <li>
             <img src="https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png" alt="YTMusicUltimate icon" class="tweak-icon" onerror="this.src='Icon.png';">
             <div class="tweak-info">
@@ -526,7 +539,7 @@
                 <p>YouTube Music Premium</p>
             </div>
         </li>
-        
+
                 </ul>
             </div>
         </div>
