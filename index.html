@@ -9,13 +9,12 @@
     <style>
         :root {
             --primary-glow-color: rgb(0 255 255);
-            --glass-bg: #c9c9c920;
+            --glass-bg: #c9c9c930;
             --glass-border: #c9c9c925;
             --text-primary: #f0f0f0;
             --text-secondary: #cccccc;
-            --blur-intensity: 15px;
             --border-radius: 24px;
-            --text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            --text-shadow: 0 2px 4px #000;
         }
         * {
             margin: 0;
@@ -117,8 +116,6 @@
             text-decoration: none;
             color: var(--text-primary);
             background: var(--glass-bg);
-            backdrop-filter: blur(var(--blur-intensity));
-            -webkit-backdrop-filter: blur(var(--blur-intensity));
             border: 1px solid var(--glass-border);
             border-radius: var(--border-radius);
             box-shadow: 0 4px 16px #00000065;
@@ -177,8 +174,6 @@
             border-radius: 12px;
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
-            -webkit-backdrop-filter: blur(var(--blur-intensity));
-            backdrop-filter: blur(var(--blur-intensity));
             transition: all 0.2s ease-in-out;
             z-index: 10;
         }
@@ -226,7 +221,8 @@
             border-radius: 10px;
             flex-shrink: 0;
             object-fit: cover;
-            border: 1px solid var(--glass-border)
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--text-shadow);
         }
         .tweak-info {
             flex-grow: 1;
@@ -238,6 +234,7 @@
             align-items: baseline;
             margin-bottom: 4px;
             gap: 8px;
+            text-shadow: var(--text-shadow);
         }
         .tweak-header strong {
             font-size: 1em;
