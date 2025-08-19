@@ -10,6 +10,7 @@
         :root {
             --primary-glow-color: rgb(0 255 255);
             --glass-bg: #c9c9c930;
+            --glass: #c9c9c915;
             --glass-border: #c9c9c925;
             --text-primary: #f0f0f0;
             --text-secondary: #cccccc;
@@ -150,6 +151,7 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
+            position: relative;
         }
         .tweaks-list-card::-webkit-scrollbar {
             width: 8px;
@@ -167,29 +169,39 @@
             text-align: center;
             color: #fff;
             text-shadow: var(--text-shadow);
-            position: sticky;
-            top: 15px;
-            margin: 15px 30px 0 30px;
-            padding: 10px 0;
-            border-radius: 12px;
-            background: var(--glass-bg);
-            border: 1px solid var(--glass-border);
-            transition: all 0.2s ease-in-out;
             z-index: 10;
+            transition: opacity .4s ease;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
         }
-        .tweaks-list-card h2.scrolled {
+        #title-default {
+            text-align: left;
+            top: 15px;
+            padding: 10px 0px 10px 0px;
+            left: 30px;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity .4s ease;
+        }
+        #title-scrolled {
+            opacity: 0;
+            visibility: hidden;
+            background: var(--glass);
             font-size: 1.2em;
             font-weight: 500;
-            top: 0;
-            margin: 0;
-            padding: 10px 0;
+            padding: 10px;
             border-radius: 0;
             border: none;
             border-bottom: 1px solid var(--glass-border);
+            backdrop-filter: blur(6px) brightness(1.2) saturate(1.2);
+            transition: opacity .4s ease;
         }
         .scroll-wrapper {
             overflow-y: auto;
             flex-grow: 1;
+            padding-top: 50px;
         }
         .scroll-wrapper::-webkit-scrollbar {
             width: 8px;
@@ -203,7 +215,7 @@
         }
         .tweaks-list-card ul {
             list-style: none;
-            padding: 20px 30px 30px 30px;
+            padding: 20px 30px 10px 30px;
         }
         .tweaks-list-card li {
             padding: 10px 0;
@@ -339,10 +351,6 @@
                 padding: 0;
                 max-height: 48vh;
             }
-            .tweaks-list-card h2 {
-                margin: 15px 15px 0 15px;
-                top: 15px;
-            }
             .tweaks-list-card ul {
                 padding: 20px 15px 15px 15px;
             }
@@ -357,7 +365,8 @@
             <p>Repository of Tweaks for iOS.</p>
         </div>
         <div class="glass-card tweaks-list-card">
-            <h2>Latest Tweaks</h2>
+            <h2 id="title-default">Tweaks</h2>
+            <h2 id="title-scrolled">Tweaks</h2>
             <div class="scroll-wrapper">
                 <ul>
                     <!-- TWEAKS_LIST_PLACEHOLDER -->
@@ -385,13 +394,20 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const scrollWrapper = document.querySelector('.scroll-wrapper');
-            const title = document.querySelector('.tweaks-list-card h2');
-            if (!scrollWrapper || !title) return;
+            const titleDefault = document.getElementById('title-default');
+            const titleScrolled = document.getElementById('title-scrolled');
+            if (!scrollWrapper || !titleDefault || !titleScrolled) return;
             scrollWrapper.addEventListener('scroll', () => {
                 if (scrollWrapper.scrollTop > 20) {
-                    title.classList.add('scrolled');
+                    titleDefault.style.opacity = '0';
+                    titleDefault.style.visibility = 'hidden';
+                    titleScrolled.style.opacity = '1';
+                    titleScrolled.style.visibility = 'visible';
                 } else {
-                    title.classList.remove('scrolled');
+                    titleDefault.style.opacity = '1';
+                    titleDefault.style.visibility = 'visible';
+                    titleScrolled.style.opacity = '0';
+                    titleScrolled.style.visibility = 'hidden';
                 }
             });
         });
