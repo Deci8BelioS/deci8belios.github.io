@@ -4,125 +4,125 @@ Hash: SHA512
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: decibelios-repo
 Components: main
-Date: Thu, 21 Aug 2025 12:25:51 +0000
+Date: Thu, 21 Aug 2025 18:18:36 +0000
 Description: DeciBelioS - REPO
 Label: DeciBelioS - REPO
 Origin: DeciBelioS - REPO
 Suite: stable
 Version: 1.0
 MD5Sum:
- 4984c7d4a82f0494496e8dcf63e63e41           294934 Packages
- 83b4937cbd46fc9b7faafba33153de53            65600 Packages.bz2
- 5fe7e9ebd1e9dec48b6b6636ca036121            80171 Packages.gz
- b2b8602cb1c60db8c46a141ef130a51b           107419 Packages.lz4
- a6e8dbbb40d680f5d185b22f68449a46            65721 Packages.lzma
- 0310f36e5473b59efad82f9ea82f08fa            65776 Packages.xz
- e0d28efd21667fa990c6eb9c6a2f5fc5            64596 Packages.zst
- b3cdc55aa85fb24cf182e15c85da6a6d              233 Release
- 268017737ddcedc3769fc454617deb16           152133 rootful/Packages
- f7e281dfaea91792f61ed5f91c0a04ae            35834 rootful/Packages.bz2
- 7bc118d46fe71ff224a1cb0a4a0822dd            41713 rootful/Packages.gz
- 0b385d43646e3839ae38e6452e1b09e9            56711 rootful/Packages.lz4
- 8028fc2d10b2f78f5765b1ba4a8c053b            35114 rootful/Packages.lzma
- ee306f17a056d4b258ce987c11c92683            35160 rootful/Packages.xz
- 97ae39eecc8bfb89c0bb640097f8cf03            34646 rootful/Packages.zst
- c1c25b8f5bc9e80fc309f105859fdf8c             3359 rootful/Release
- 652e0b8ad885670a2b8ed8b176b25998           142802 rootless/Packages
- 5c168f46980b70eadd5f3c709fb0819f            33385 rootless/Packages.bz2
- 1156f2956ff4a9108057a255e157e3f6            38709 rootless/Packages.gz
- bd73f5b3bc05a51775abd84a4678896f            52880 rootless/Packages.lz4
- 79a6d6a7c9b22c760e91d264ba631913            32666 rootless/Packages.lzma
- f3f4b90795de4fbf65626a75f6b78f0a            32712 rootless/Packages.xz
- f8c2bdc5f469a4a10ac3985dc5b622d3            32202 rootless/Packages.zst
- b500055846f2676856ddd40d450951ff             3359 rootless/Release
+ 7707feead0fc7c531e33b7d0d7050acb           296372 Packages
+ 449c99a4638b206f37e0a98d05bb15b9            65903 Packages.bz2
+ fb3b5bc0f0956d85f50ff1afd3709033            80507 Packages.gz
+ b46c15f10e1e16e8eef5c03d1e06b58d           107921 Packages.lz4
+ d21aa938b14cf57d1b54d2a6a684c043            66049 Packages.lzma
+ fce17d91b66679c783d23488dd65c4ae            66104 Packages.xz
+ 429506f6e453e50178b90bee97d50c7a            64903 Packages.zst
+ ce6a33be28b4a1e0c7e6f7955f42afb1              233 Release
+ d8ee34ed587535824d5fa5c25abcad58           152849 rootful/Packages
+ cf1dbb045c940fb1c5ed7e876967036e            35936 rootful/Packages.bz2
+ aee456ad7872f7deb81614903019b01d            41898 rootful/Packages.gz
+ 7d5c56cebfb2cffe9360d6eef15a3b19            56960 rootful/Packages.lz4
+ 5469374ee62ce5bded613a9a9bf0f54c            35272 rootful/Packages.lzma
+ 68c03cf20fcfffc42bcb109618ec709c            35320 rootful/Packages.xz
+ 89e5d582c8302723fe2d82499806c383            34795 rootful/Packages.zst
+ c738981dd28489b36eca28fe98138042             3359 rootful/Release
+ ff523217b30acdfbd65d5f0b307cb229           143524 rootless/Packages
+ 59aba85d987152fe272b9e03b222320d            33531 rootless/Packages.bz2
+ 6889b5e1730bdcdf2e060db606ba71be            38887 rootless/Packages.gz
+ 9141111673f88ab6252993db0c27f17b            53131 rootless/Packages.lz4
+ 478ffe8cb29a7ce470999c167e2d27e1            32809 rootless/Packages.lzma
+ 86382ed1e3bb6db3e758c15d04f5017d            32856 rootless/Packages.xz
+ 2fde9974eebc9034ede5d4bf313445f2            32365 rootless/Packages.zst
+ 97cc7f271e42495d1fa4659bf5f93189             3359 rootless/Release
 SHA1:
- 389c745d1777b2a49816f6a0f7306ef36f7c24e4           294934 Packages
- b4945e58acb93c09cd3584fc681d578168fdd892            65600 Packages.bz2
- f4426d29162831ecc0ec16c3b7647141e73ced8d            80171 Packages.gz
- 95007d5d627f75dc7f67adf7d6e9b3b97953b2d6           107419 Packages.lz4
- 6b0c7c18e426d21d36ceecf9e32df490b8ab1d6d            65721 Packages.lzma
- 95125fa58ed3a9e8e1f0f1ab35020b4d5bf9ae5b            65776 Packages.xz
- 9d67cf748a1477b4cd1af11badf4a8ace3fc93c5            64596 Packages.zst
- 569110c71ae07413e8d215a28abb5956cde7e6c8              233 Release
- 595c755b4b3d9165ddb7ce0b1e4cdf4ad2b5fb6d           152133 rootful/Packages
- c7f3c3ddf6c4e48561dacd6311710e05f32ee1ac            35834 rootful/Packages.bz2
- 3255757d9a6feb0cb1a20b843adfa36e0b97951d            41713 rootful/Packages.gz
- 837a4956e344943e5e03cac16018f66078886910            56711 rootful/Packages.lz4
- 238a9d42a0af7c49b90618691f1ac6bdff48a3d9            35114 rootful/Packages.lzma
- a17d1db3f85056000c0e47608481236efb0a87d3            35160 rootful/Packages.xz
- 49d8ac15ea8e32fe4049f74340437752c9976a9f            34646 rootful/Packages.zst
- 85d640195057724de81e438f1b5874862ba52243             3359 rootful/Release
- 427af071c8507287a8c92f77cc11a57314053b08           142802 rootless/Packages
- 5c7231c4b629ef9461471463bb993bd005d64678            33385 rootless/Packages.bz2
- 1b327f263b20e24b85212f32dd9f2b35d24e490c            38709 rootless/Packages.gz
- 2a63a3c1cc7236b46d44508b11f8b16a4ea94bd1            52880 rootless/Packages.lz4
- 39993d834eb92ed1483d3b64d11f0100d81f8b8f            32666 rootless/Packages.lzma
- 3e1081a0d7e427f56a227f3da615e79af8d2eb47            32712 rootless/Packages.xz
- 181b211f373557772ae862addfdf4da1e1d0554d            32202 rootless/Packages.zst
- 0e8c0f460fa212ec7b6850e29db4ed6b9082e58f             3359 rootless/Release
+ 2c506e62ecff0f596771540272798add3070fb86           296372 Packages
+ 0d81fbe9beaa5bec74e55d37e9f5d3a7c6a996d4            65903 Packages.bz2
+ a44e96c7feb6ecaa94fc56d54b53e13306a70fa7            80507 Packages.gz
+ d086a433fb2ba9b3c5942e4da4846eb39ac2f728           107921 Packages.lz4
+ df493be7f009f8d4a3f2413bcfeb17d63902f6d8            66049 Packages.lzma
+ 977fc1c91927cf6034c20817f21d1685996311d2            66104 Packages.xz
+ e0aa4ce6363df9ebd9808f991998887427d15f8f            64903 Packages.zst
+ e3401d15b7a361518fb79e180d6373f4f1e86c61              233 Release
+ 79a371066b66d51dc37daa531fd7c1453dac0d05           152849 rootful/Packages
+ 597e37446f77fa6eaecb6dfe6f4e40180a0e704e            35936 rootful/Packages.bz2
+ 8c1c7776415029f73b1954fd90d6944bba3861d7            41898 rootful/Packages.gz
+ 2b3196b6da4d9591ecc25860a673dd53e3426815            56960 rootful/Packages.lz4
+ db205c0f16aee8cc22d0d302c76e561cecaa570d            35272 rootful/Packages.lzma
+ af843423681e95b6a6539f762acd52a94f251ace            35320 rootful/Packages.xz
+ 3becbf93de897753e498ffc1a9d2a402d4c7f50c            34795 rootful/Packages.zst
+ 36e9c65d01cc66db329b8ed453adc7aad05bc02e             3359 rootful/Release
+ 5436f3c50ddd4595a530abe7490a65a5e2829cab           143524 rootless/Packages
+ d10057daef46bfb278aa51fd1cf3281893a1e257            33531 rootless/Packages.bz2
+ c4ab47cf665562a4a0e1e2717f95cedba1c8a7ec            38887 rootless/Packages.gz
+ 9b6e2564940ddd226f72e0b9875132492f683262            53131 rootless/Packages.lz4
+ e66b15f7652179231373b5e87585404056cc5442            32809 rootless/Packages.lzma
+ a3998997281ff4d3d0ecb1ffda5e648572461f90            32856 rootless/Packages.xz
+ a4a390c3976fc2a1d31fe2b281e884e0f49a0297            32365 rootless/Packages.zst
+ 33c091b9a5a5f147561344cae5e73be195b751c7             3359 rootless/Release
 SHA256:
- d3b41309eb0c9179d7f5c6eb050de39e5420a6eecb862f015d631a35965883dd           294934 Packages
- 522a4c7115560e2208614013784b37a9f95034c610e5976dc65724e3ed4f98a7            65600 Packages.bz2
- 08dba566079cf953e358f645912533840217b6a862de6462bf39d95c3b7a5500            80171 Packages.gz
- 25066e44763d60afaa395a52d48f0ad03d9bd770bd0311c4859144428b59f3f2           107419 Packages.lz4
- a0616efc9684e0b749ed4cd0c3495feab5d254c32317bd2a2bc0e7ca2507a9ed            65721 Packages.lzma
- f07c4bee214a2169fb6e50b179664926f2567bba2370034a16f58f531abe7542            65776 Packages.xz
- 796e9aad65b1e912a6ab2a6004427b8c76215799b18f55cd504f41985c87ef45            64596 Packages.zst
- 91e00fd655ce2aa57734fea076b539881812815dfaeac9b9c40fc6701c003fd3              233 Release
- 8668f0d0503feb7ec2a63d8eaa3b68fbbffb69bb3bd6fe113cbc51fb5c2a4ce1           152133 rootful/Packages
- f6fd29085c1ac4d693661bf539126c48dda4f13e358ea84b926cdf9a9ab6bcad            35834 rootful/Packages.bz2
- daf29bb24955e9d7c7f65135632d40a80f1a88a94c770ca1d30505b12089ef24            41713 rootful/Packages.gz
- 69488695403552e95945a0cdcbe5da27819c1385ff03ee7f4b6478cdb538fc2c            56711 rootful/Packages.lz4
- 0543d86ea494e51643864da58ad222afccb1e40867f13205e393b3fdc6c6f60b            35114 rootful/Packages.lzma
- 0753741802708ab0592c7f36bf8c2975d0b160b7f257c9e59a2fb7af3c9fe51e            35160 rootful/Packages.xz
- 20f7fda34019b7838aaf1203c532259c2414d0281bb1a4e2934993a809f1e900            34646 rootful/Packages.zst
- 33cb2a801d6d8bfb5b4a8d1c8f05fe8e6c4122846b6dac76810db537be32f51f             3359 rootful/Release
- e300b1f106ec2f9f473efc1fa51203923f49f6299a877a093198b14dd005c6ac           142802 rootless/Packages
- 30e7972dd6ee8b1be5c7ece8718994755c20d5839254ff403550d7eea4e03bb1            33385 rootless/Packages.bz2
- 42b04fef970c8e3e3a88e2bea1d6eab77a08fb830261069be7a232aee9c16e6e            38709 rootless/Packages.gz
- 56c8af80ad01f73f9a396335cbbf3a691ad8a27e676162171f85289d7bc797c3            52880 rootless/Packages.lz4
- 9a07216a271e68396ce2e5777b625778842917bcfe415da32ab2e15464713c0d            32666 rootless/Packages.lzma
- c84fbf1aebaf832c7ad55410e11bf4610e664a102c4610f578366802a7384c41            32712 rootless/Packages.xz
- ec3cfa2185c48bfe6ac945f858768c5163fd3b5e024757315e73cfed865a6bd2            32202 rootless/Packages.zst
- 147aa29771d02ddb1efd347bf1f3e26e94b2cca2cb87e746ca807a327093b20f             3359 rootless/Release
+ 4a379a75f615a03e66ecf9268a0c528e32bb4de0c91cc293f97e84c4e5f8a3a0           296372 Packages
+ ab8fbec9fc7abf49270f5366bf5b2a2027a1e72443032dc9b258954cc7c1531e            65903 Packages.bz2
+ 027deb5bb19de67929cf889702c063dbb2906e668517046f4a9c2a9c0ba35347            80507 Packages.gz
+ e2bccfe5bdb0354d6f3ac589a97ea0308bd2736c3f508b0ca5af3bdfe5dde499           107921 Packages.lz4
+ 82e851bb069e1d2f50653d7fe49ba12527c859e53999bca2dcf40ca5fd3c7f50            66049 Packages.lzma
+ 2e1a1f130afe5b21f03042dc9bfb880aaacfd637b91da4079fa23df899fee5fc            66104 Packages.xz
+ 2f0ea293f23059f0884a4b5c1dae289304aec68ec3bd7b3b2d45ce705785a107            64903 Packages.zst
+ 35139d06b89e93412e464048916ea2668f9dd8fb14e63b0e194868605d23c029              233 Release
+ fb597b65ee45c452b564c3f6fc841f666c0559dac08cad231906ee5afae6c915           152849 rootful/Packages
+ 7ae546c69aa5600cda60cb86d3b5bd0df8c7fa9eedd4c520ff7b68a14f1c5e20            35936 rootful/Packages.bz2
+ f7835bcee331b15935cfab5d53e4e7b374f4f29a4d6994e648e09200022b765f            41898 rootful/Packages.gz
+ bbefd4d3eb280bbfa6e2493da1761fb1bfc32348a2969d5474a689ab5bb6e9d1            56960 rootful/Packages.lz4
+ 7c59ddf40bea7cdcee1550e8bdc8c3eeb01fd492d9283178dae3b6dce82d3bba            35272 rootful/Packages.lzma
+ 346b58cbd80fb92d14f5c9e3843283ce2f134667e49d854e654d2f41133597f3            35320 rootful/Packages.xz
+ 113b18e0d18b6e4b27eb3fb15bdd0b7064e8eb485d33d67a5f8ab7413a238e52            34795 rootful/Packages.zst
+ e277d64a30ca7a879d1727fb1964f6a3c6a1d0b1d1c2d9afaf162a4815d8567d             3359 rootful/Release
+ 88e48361a2df6c652e6893828a2eec85cb24d5d648cba65f08967cc136ad6575           143524 rootless/Packages
+ 99346a87d11bf975e9330547244e2b296ac25a452f35d0d4bf084d3689f9f508            33531 rootless/Packages.bz2
+ d2c4d8effb6f778744d12a4be6c52ca8507082ac871f119ec9d81d918dd6b019            38887 rootless/Packages.gz
+ 2d90821ee24e7927e031a9eebe3a484ccaffafe3510d95cc477c9891064a4dae            53131 rootless/Packages.lz4
+ 67b5d7e11a6e363a97db48efeff2ca1449e05074234264f46d666c8b2a608643            32809 rootless/Packages.lzma
+ bd5003a707d5e86cb44d81a0d7239b83bf69bc7cf0f5bbb4d5eeb2b0e0c56f77            32856 rootless/Packages.xz
+ b4270d0d2b7c36e827e0ff4dc1ff5f6e79c6c1b5279bbadff901faf3fef69fdc            32365 rootless/Packages.zst
+ 2e7c55ed3ac6b8d07b9953f5cd4836a4b5505668ce13da1e7bf24025c8de86dd             3359 rootless/Release
 SHA512:
- d9c528d77eec4dbd24f026547561cce96dd7b34b78eb110af8cca78de3eec22abc69e334f819693cc9e0e2bf131569f6ff4acaec629b16cb4bdf03e3bde93992           294934 Packages
- b48a23eb99e44d533e1e3a4430082b8438de067463e317669c3ce1aaecc16d8d92fbcf6ff917d80e9e425dc1be6e9c6f2252220f1221096f6823f985d4d0d338            65600 Packages.bz2
- 385d7e26b33b49da96ce81f962e69c43228062f7b2401f904f2307accc144b416d29cc277a477ee11728e8e2d6c3ae17474bcac7b40b90c60bdc73a8ca70169c            80171 Packages.gz
- 5f6a95f7dc15c34ea652e8845356fe7af89231a63b54ffd379e1abd23bd69c793870f36b7c50faab93d3d6b8e913e7d8570070df116208574bfb63d6d3cd4a48           107419 Packages.lz4
- e55da29a6387a0dc343fca27192bc9466c996801bb5b4960268498379cc07fe2bb0652bf443e8abe098183cc57dd139cad730af84068d89225dd84e7de8ef089            65721 Packages.lzma
- b95c51d362a7c140a88f74654f374e257ead7f2fe3a4b1ef8d4b200f2514bf993ae299e556c7d62f55f84f71e8a7dd54d78ee4c70c52f1063f80c8a583ddd0c6            65776 Packages.xz
- 9581cc49b664036a800878ca167b3d6486f1dd29a3efed0b9ba1de8d813dac8d6287f252611730b671472b04ee5132d31c086f995d8c9bb4eb01c36d1543bd22            64596 Packages.zst
- 77db04c68a51a11baf02baee25a43bdaacd9387e368968dd6a9c2c777b3f62629ea256080d63998b00ad74997eb44382d296194807bcc9c8535d3283b4b4ac84              233 Release
- d4686417ac998119dab951cc4d9b1f9ebd6b7e7146b973fd0dd8684a3024bf27ed793cae7f163749895e4a859e0a7d4046f6db981a2a54f5a010bd7961d18682           152133 rootful/Packages
- cd7323427118f1b5c827761cb47a43e2003b82cf4f05ad50dad8b50574b3ac4e3a5a02913f11139ee2a3a16e1f844e9407a00a1832cf534b32ef55507138c928            35834 rootful/Packages.bz2
- f990104fc2789d5ae60a125bbf284508698d6f99cec4abcdfb311f13eb24b14fbf935b5423a38403fdc118349d9e4aa116eeec609a68b3105f180ffac316447a            41713 rootful/Packages.gz
- f4eca71433f12fe97d3e0ceb28472639342513d8e6b2ff6469b4581dd8fd5e12ac2482a48d406886df39387bc97b7c8791d71a70096ef636336c0a33f5389219            56711 rootful/Packages.lz4
- 225a1c27ec1f0f0e743b41231a6992f1ec9da8df55de80830e8393e1f25bbbb40bee0a2ecccda5fa732d308225223bb45d3a5e25dc9b306f8c6ae52129f9e4cf            35114 rootful/Packages.lzma
- 143969ca8ef8c861d024785fedd366b3111d6057c03db8c696321473bc89d5b2c52c7f7f34e944b111926f6d673e8db2f1fad2d10ce116481cb0a87e30b018c8            35160 rootful/Packages.xz
- 503142212568ec9166ccfb51cf0df31e39d775a4f7b73627308655b58454727df4b357ba0d60aeacc4b1e31245fd83b00d44a147762e8c9d7ce5133d6c615ffe            34646 rootful/Packages.zst
- de0e9f87332484704f36b0e48c7f7490352dcf5cb6557be0c623d23b8f3cc92ac4931d39200f4b409f837da9154635d307ab00ac25e0d1f5fd95bb825d792dff             3359 rootful/Release
- 1b1efd068dad13d6d2e6c751f738715308532cccbc44da6239b6870fa86b870860b4782c735c39d19e0a8c1ef35735e69a73311dac60f262ab46a0e8ff87c28d           142802 rootless/Packages
- 385ede9ccf8db3388f0ae0e78e6aae834bd565a77a065c1c3a1ab8035527ba31f7313f85b6a0a6af9cbe96566d300e27a9f58047e63764d99140b2c3284c0cd6            33385 rootless/Packages.bz2
- a65d73b18289297df32aa46cfdbe486227a1ebb77606b7c2f769e226d6cb9b92071c28e7b8ff4c6541977cd257c17a6313fe2a3736e995d379d005bd2322c2e9            38709 rootless/Packages.gz
- e63df42a071a8d4bcdc92d704057ef4683861a7af7923f7c40157bb3a9efb83b64fe5fdcd3d8abf79adfad0e45caa5d6c38ec69f3f18fb2c2ce637ec9c868415            52880 rootless/Packages.lz4
- 9f1acf541d63f258bc1b498428528e4f66f204ddf4be97ede7c0c7bfcda835583c2084b0cd3e4188d0b16d29af77f60a77efb1927fe105d7dbee1f6342d98148            32666 rootless/Packages.lzma
- 4188f8474486d0f90e30f6d1727c245e7bd4c98dc5c40ea72971d520e41250476251c50f488ded453df9a38139ad529d62d70b118533a08c79d0b01950322bcd            32712 rootless/Packages.xz
- 59e433cfbae0f6dde972a326d477500b489183033403ef91fa26b0ecadd86f539c421f0c88466e53d08ac56bae1859b8c0559bd61d256e530e14784a81dd00e7            32202 rootless/Packages.zst
- df5ccff786a90e22ec948b3486859bc1234abfd1965d7a285f3e3e042cf633bf3f555f0cd028c948f4506a2974e9ad5fcccb10259627f7e2c0b6de6499a3d5ba             3359 rootless/Release
+ f933bf9545d067779e07ce604412949d40de389e46bf59f5bb3f0b72cf0b824f7162ec606bf48383c44dcfeeb6a1f7e3793acaab6507ca005fbeb18b3fa7aa55           296372 Packages
+ 312c2da288bacb949151b1e35aa161ae834d6faee40bc05a5c9466cc5d73c82a2b0b458e209e648a46aa430cc2b9dd68f0e9b40c2ec932860b4e0eb5d1773b66            65903 Packages.bz2
+ bbe60836fbb7ea4aecce51cb676c52803daa6d90757c9ac4a60bd8c27b0215384015f1b1fc24d8a333f0f7ea418e7acea50e20a65ba15e3041131da27d68fc94            80507 Packages.gz
+ 6b1d0a4379e414b0723cee43e607d508da08d64056ece4390c66f3c86d5c2d54b254acdb26358a7aa36b0d2ab8d6cfc32d0a4aba1c48036f289aaf454afbb155           107921 Packages.lz4
+ 99772561475d9bc7648630dcdb08af3cdafd3bd2d0aa87609faae7a5567c22c667c8af4fff4105b4c94284b0e077a6b1b4785e133b03572418665f8c648e78f4            66049 Packages.lzma
+ dd2524eed37f715f5bb9853b995da5e7d26ecfe362e109e8582317cb3e44aa8f28fb6f5da62e0e1615bf3ddce4a8c8ac4dbc8a5370a8ab8ceedbc703142e2ce8            66104 Packages.xz
+ bb2a1c6d5d771b708298e18caa0f885e76751f3b18f1a7178d24446381e9482cb39eeb80ed8ac175c72d0f6fffc6040031f65993c7a9066b06c063213c28d6b4            64903 Packages.zst
+ 6660d524eb97b12d918e10442ce9c6868fc5e08c2adda8fbe77b3bc11e3006997b6d0067262b6ea35d6b21616c7b318b8a5f384aad106dfacb91449b4a3c68f8              233 Release
+ 6d584f14fb5b148d7c1095d69138e88929ba9ad3ff49779682732878f6def196e17fd3603f22a3b8eb26f59b3d85d22262a59917192907dac3b00d5ac33853b5           152849 rootful/Packages
+ 5d7d84ff076dca171a9cad3740ee27ff693022d3c60bfe41132aa936e15084084db549a8b1384af2f1b624873222dbf7e3ff889edf59de9ac6b418b2f6c781d6            35936 rootful/Packages.bz2
+ a4f2da07e7192c3fe31b1287271118e10808d8a6c0d6ada6a7bcfb2f9c078c58adbc707ef06252c0bfac327d7730160bb43640c5769a627a90d31c96db13d120            41898 rootful/Packages.gz
+ 3f1501792d9cd4e58c4267dc251badf4dd6d1d5a75553ad7c569959a36d191700c3dced271bf0be796a969f885eba3d3fe041744e25dc3a328fc22312d28e3f7            56960 rootful/Packages.lz4
+ fbe9bb17a595042ef587f06aaffc7290dc2d3346cdaac8e7b9226319eebd8e1e8c4e1dc477a4222c1350c40c01b89f1ff14452fd4bacfc4a87d0957db9b20232            35272 rootful/Packages.lzma
+ 04ac0f2cbe544913a0b3bc67240007ba1a26aebe0fd409130c8e2dbfb4d745f0385f71033c487254f17b622f9b83648656924ee69d2e2ae9bf02008edac0853a            35320 rootful/Packages.xz
+ 3dbd7cc474cdddee289d1bacc6e0f41a73088ae64dcd343ce9784094f1a9ccf2fcb8e2feca8765314e8b5c4e3f8da34f5d03763a2d071a4813ac8401677420b9            34795 rootful/Packages.zst
+ 35f8cf09f332fe61b602cb9e85ca7cc527a4dc254779d300f54b779aa85d2bc79d813ab06f983342988555396ad6bac811eb3bf5484b83e14d81fa67dee451e7             3359 rootful/Release
+ 975d5cff009c456db892de31ee5475f5cb15f7c521645e84b1c5bfdd7d86e4784aff8dc83ae4cb230484ff4cc19fb009957b3ed292f03449da0d6a303445b196           143524 rootless/Packages
+ 068187728e217e109efc3e8bbec69882f04db314fc1b882eab0104d5c2c10aa8c5be3cfb834395d4a78a2f76845d207c1f2be1dd63ece7a278cf3d71cc227048            33531 rootless/Packages.bz2
+ d647f2d8845484e050a5bfed9756c8e1bb8b270a164203f1ee1f65f9883e3e40de45b5b3e5d4e00b0986dd7f46a99317d4569f981b43638592a6c32d34d3623b            38887 rootless/Packages.gz
+ 882632df983c69c3dfb22db33623d19add842409039c965f2d60d529dc96bbcb661a9bae483b23514cb4ba63245150acb8cc0a952c082f61775ed422a6d2f926            53131 rootless/Packages.lz4
+ c5883de6de797d81018f54c47930beca446ce35e76332d489e24f9d15fd959022883b5154fdf4969e4f6fa8b3444fd447264e600b3cba84ee80501266f8d186a            32809 rootless/Packages.lzma
+ 22ff74d3b35992026ca5017bbf105906236689350bcb0f4004b9e961a2fd356f298e017f7b6348938db3c29fe16d530be00a32e7ff419adfb95498da05ab81e9            32856 rootless/Packages.xz
+ 357c32d76cb3e694a710456ca4b53f24c81f9c6e4bcceea696aa71f6a44d9d639df58304db6b0f3e2c8e7436597d192c1446d0d6b331b065c9464a8ba9564a92            32365 rootless/Packages.zst
+ 4ddea590f2fd7050c3d4a3bfe4c49827c412783c8b1366357c067aca1aa7eb4a552f1362ce2b159854534d688efeffe716b2c87d002b10377ee29a2836be8563             3359 rootless/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAminEFAACgkQnuK51HhM
-Noxjkg//b3YfGqp6nPGU6k19RT+c1r48kfHWRAayCQV0QgBLNv9Jp8iNBHBPYOJi
-cyTXnYQOGte5G7LBqvk/EBNhqn3Wro+H9Bc7DRLMVSvpttonW9zIkJA1smhBRx29
-a59Qobs41tb84YN93OzV7Ldo30CnsREMiXS2QxAIckXjkFKbw1Zz0P7lRiMJXCpL
-BT/fopg3sWlhDheuXY6hJnT2UA8o4nR6Bn3w7zp8Y5ZHuB+fUmgxV7IY9Xe0bzTe
-xA5expQSJjBCFDBPDIxlkopRc0oVIzWyR3wxrX8RZz9xP3cb0vc7XiiwGdvgA+du
-LrA9e/ROshRZLcR+OtK0mJVJqFom+Ry/ewDLE15W3McGuxZxWnU+d9UGO6wdwgcb
-zuN6MivnOTtGxqGlkq8RONmmjNbnXMmGakGx4fUzO0CQ7hHZWHi79Asnp759ESAf
-xXFXcIP2ZERXWh8GoGQ2Yy7TgW6XjdWRZMu+DAxy5hm/rSL1qberf9E5wwEZuCEd
-xGsmy7ORXdA+QCw0uu0nBc17x/Rve7Dg5I1UNry4hYlkmdxKWbDnlkfaMAjNcumR
-2tDU+SssHIChaA+zjRzHnxjO/MzDB46Uqy+jG9FKtgP9+ZIu7mC3p2EErCzj4x6F
-BIUv8TJqtBIn90B4jpz8K8YlaWH+eyBy2B0BwrRylt74MmZ4DSQ=
-=qSMP
+iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAminYv0ACgkQnuK51HhM
+NozcLxAAj9waZuMaDmuUoiIqE7jwQv1jP8j8Dv4wrVcSGakTqVGacF3T7K8yBVxx
+yG7qW/vxBiyCdCqV8qWzEf7EAkU30DJ1pKgQ3nV6dy/ShKCM5+tdQlzWwp9Y6tuR
+/zLVEMo7V/PP5KkigGMQabwXO8YNku2nn5S+Nvwc8LwAJcLkfIY5Yj9uxRecQXwP
+vc9+fzWIChChRBWO9/n5Gb2BGwl4dmjo2U6g4cgd3WU1DfB/ZGcbcnKXo6cNCnS4
+Tlsj9GlFU5p4UcwfyeIT7rVXkPzZqiucbEKFaMw5R0lSX8K4bqC82AUl0CaK9RHW
+jFu10PU/NiY1EhHeBG7IAscrdlPNDgHZuYXmK3Rhsec5552hcCD5J59La8Xr1SaW
+ERq/xSy2DAZmeodNA7KPWhC1kh9JHF2oLM+FJdQRW3wUMGSFpiSqL2VA/CZDZ6W/
+s5qnsNezaM1Nomb7sMbvR2eAm4ViPqpgwNG7Ft7vTIWyqjMZfBJ9bWG4PYqz9M9o
+JV6gvpHjCUw3XF7qHg52WxopNcP88Mtj7kQFE5+3eEcXOJ5Bs5vt8royqNX6kFGz
+BNFy7IYxoHS6lLnX4xvFsgVuSV+hZKu8vSDdzKOGYRP2HtmsD814GyFrVeXUZmy1
+RG558cJLxnEu8UJ5uOFePTX6dhzY6DvalaufbB6tOA/CGVqB3F8=
+=zrxX
 -----END PGP SIGNATURE-----
