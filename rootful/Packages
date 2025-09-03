@@ -1162,6 +1162,25 @@ SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Architecture: iphoneos-arm
+Version: 2.4.1
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 1220
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.infuseplus_2.4.1_iphoneos-arm.deb
+Size: 446384
+MD5sum: 248209e2e69f5371fbbcccb129581067
+SHA1: 9a704aa80152d1f90d80758638d89eb845494142
+SHA256: 5ed300119c1ad47fc8244072c31f403ebf62490991582837b74e9bafaba91c6a
+SHA512: 26ffa21c5f8f1dc5a399295d83390d9add7eb186bb620f5d70ad2848115e5c99e42664388661e663022831e5a83a1c6dde0fd4ad81cdd55ac400aa2f2912b3fc
+Description: Enhancer for Infuse app
+Name: Infuse Plus
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.infuseplus
+Architecture: iphoneos-arm
 Version: 2.4
 Section: Tweaks
 Maintainer: dvntm
