@@ -18,6 +18,12 @@ jobs:
       - name: Comprobación principal
         uses: actions/checkout@v4
 
+      # 1. INSTALAR DEPENDENCIAS (Vital para que repo.sh funcione)
+      - name: Instalar dependencias del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apt-utils zstd lz4 xz-utils bzip2
+
       - name: Importar clave GPG
         id: import_gpg
         uses: crazy-max/ghaction-import-gpg@v5
@@ -25,29 +31,41 @@ jobs:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
-      - name: Ejecutar script de descarga y empaquetado
+      # 2. EJECUTAR SCRIPTS EN ORDEN
+      - name: Ejecutar descarga y empaquetado
         env:
           GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          chmod +x latest.sh
+          chmod +x latest.sh build.sh
+          
+          echo "--- 1. Buscando actualizaciones ---"
           ./latest.sh
+
+          if [ -d "dist" ]; then
+            echo "Moviendo archivos generados a la raíz..."
+            cp -r dist/* .
+            rm -rf dist
+          fi
 
       - name: Actualizar página HTML con la lista de tweaks
         run: |
-          pip install packaging
-          python3 update_html.py
+          if [ -f "update_html.py" ]; then
+            pip install packaging
+            python3 update_html.py
+          fi
 
       - name: Establecer la identidad del usuario Git
         run: |
           git config --global user.name "${{ secrets.GIT_USER_NAME }}"
           git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
 
-      - name: Aplicar cambios y subir al repositorio
+      - name: Aplicar cambios y subir
         run: |
           git add .
+          # Solo hacemos commit si hay cambios
           if ! git diff-index --quiet HEAD; then
-            git commit -m "Actualizar repositorio y página web desde Actions"
+            git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')"
             git push origin main
           else
             echo "No hay cambios para subir."

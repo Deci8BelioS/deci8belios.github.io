@@ -45,7 +45,7 @@ repositories=(
     "khanhduytran0/CAPerfHUD"
     "whoeevee/EeveeSpotifyReborn"
     "raulsaeed/BHTikTokPlusPlus"
-    "arichornlover/YouTube-Reborn-v5",
+    "arichornlover/YouTube-Reborn-v5"
     "SoCuul/SCInsta"
 )
 
@@ -61,15 +61,30 @@ for repo_info in "${repositories[@]}"; do
     repo_url="${parts[0]}/${parts[1]}"
     package_name="${parts[2]}"
     
+    echo "Procesando $repo_url..."
+    
     latest_version=$(get_latest_version "$repo_url")
+    
+    # Verificación simple para evitar errores si la API falla o no hay releases
+    if [ -z "$latest_version" ] || [ "$latest_version" == "null" ]; then
+        echo "  No se encontró versión o error en API para $repo_url"
+        continue
+    fi
+
     files_list=$(get_files_list "$repo_url" "$latest_version")
     
     for file in $files_list; do
+        download_url="https://github.com/${repo_url}/releases/download/${latest_version}/${file}"
         if [[ $file == *iphoneos-arm.deb ]]; then
-            download_package "https://github.com/${repo_url}/releases/download/${latest_version}/${file}" "pool/iphoneos-arm" "$file"
+            download_package "$download_url" "pool/iphoneos-arm" "$file"
             downloads_made=true
+            
         elif [[ $file == *iphoneos-arm64.deb ]]; then
-            download_package "https://github.com/${repo_url}/releases/download/${latest_version}/${file}" "pool/iphoneos-arm64" "$file"
+            download_package "$download_url" "pool/iphoneos-arm64" "$file"
+            downloads_made=true
+        elif [[ $file == *"rootless"*.deb ]] || [[ $file == *"rootfull"*.deb ]]; then
+            echo "  Detectado paquete variante (Rootless/Rootfull): $file"
+            download_package "$download_url" "pool/iphoneos-arm64" "$file"
             downloads_made=true
         fi
     done
@@ -78,8 +93,13 @@ done
 # Ejecutar comandos adicionales solo si se realizaron descargas
 if [ "$downloads_made" = true ]; then
     # Ejecutar build.sh desde el repositorio clonado
-    chmod +x build.sh
-    ./build.sh
+    if [ -f "build.sh" ]; then
+        chmod +x build.sh
+        ./build.sh
+        echo "Build ejecutado correctamente."
+    else
+        echo "Advertencia: Se realizaron descargas pero no se encontró 'build.sh'."
+    fi
     echo "Descarga completa."
 else
     echo "No se realizaron nuevas descargas. Saliendo sin ejecutar comandos adicionales."
