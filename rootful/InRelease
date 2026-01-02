@@ -2,63 +2,63 @@
 Hash: SHA512
 
 Architectures: iphoneos-arm iphoneos-arm64
-Codename: decibelios-repo
+Codename: ios
 Components: main
-Date: Fri, 02 Jan 2026 06:22:28 +0000
-Description: DeciBelioS - REPO
-Label: DeciBelioS - REPO
-Origin: DeciBelioS - REPO
+Date: Fri, 02 Jan 2026 11:39:14 +0000
+Description: Repositorio de DeciBelioS para iOS
+Label: DeciBelioS - Rootful
+Origin: DeciBelioS
 Suite: stable
 Version: 1.0
 MD5Sum:
- d3cab07da95ec8a29bb07c8817256d23           159451 Packages
- 9e14780f1b292bf21547eae74dead146            37300 Packages.bz2
- 7d68d53a79b6dbb23b023329c565238f            43503 Packages.gz
- a27200871d435298a94f5cc3a2151811            59182 Packages.lz4
- c6082f61dc02788346af35cbb22eab46            36652 Packages.lzma
- aa26d098e873fd03a1ff46581ccd22bf            36696 Packages.xz
- 1c630a439bdb9b7bce3de50e853dd2c3            36152 Packages.zst
- d39ef34905c69b7cffcbc806e545a530              233 Release
+ d83151ffaeafc4740fa69270307f8129           159450 Packages
+ 2d98f245cf639534d9a3595c366dd8e6            37322 Packages.bz2
+ c51299683f481e81301e9bee9c96589d            43501 Packages.gz
+ e1d3506ddbe80bfef41df69dfefb1544            59182 Packages.lz4
+ 9ecd52f094e8b9b94f42a49247dafc19            36651 Packages.lzma
+ 7eb8b03ffc74f59d3de8f9d17bb069b3            36696 Packages.xz
+ f59cc6516a30062f5fa393447c28aa41            36150 Packages.zst
+ 4d62de690b4fbd90e63511cec94eb8d0              234 Release
 SHA1:
- ea47cdbc435026282ccf6df77cc6951ab5d68a4f           159451 Packages
- a8f2454bbff0a9f2e92d9b48db1230e8e0b6f203            37300 Packages.bz2
- e1d858426462c8dc63c769e946c2994c8ec57991            43503 Packages.gz
- 96c1ba704bf3c07cf7f9e67b41c2a80c6d0392b4            59182 Packages.lz4
- ceeeecd702e2478a54f6e2c1557f23e0036b693a            36652 Packages.lzma
- f4a433b494b822247952da807bd41e1ace36f1c6            36696 Packages.xz
- 13c71f0d59eb141753f9d58c15713ae7a2649279            36152 Packages.zst
- 2562162791c98e74863813672ab9c57bc97a19e9              233 Release
+ fee756b3750c5e1c45a544ae8b131d5244885d39           159450 Packages
+ d7566de6be66fe2f7fa9c258f0cd2408c97abb27            37322 Packages.bz2
+ 9e30d5fddd2ac3472a7d2ecc42e48103939427f1            43501 Packages.gz
+ 8ff1c6c1b2d11978c3dd91a4fd1a3fea2110aada            59182 Packages.lz4
+ 95a37d4effe68c6be0291aa21686bcf4109d6c2b            36651 Packages.lzma
+ ca322c8287c25573b5fd8efa8d439f0f635de611            36696 Packages.xz
+ 9f33dce3bd45e81d4f3ca8d601e365f73e8ba918            36150 Packages.zst
+ f761a289a14e245c09641326fcc74b60de641057              234 Release
 SHA256:
- d8e3cb9e2ded9f5299e57761f5d0784953f9b07f7a0cefc1fe3193f08623b64f           159451 Packages
- 49a7a1f8f97b4621a11dbe8c48caec20d09c36d07c5c10a3d36cf9fb64c014a6            37300 Packages.bz2
- 06b0398fee6825021632bf9e1c2ef6caa0472c7aa7f9eaffe0a43a1c50cd05a9            43503 Packages.gz
- a5c1fd17dedb5362716f9234878d1750142137a0df8bf89488459433a273f008            59182 Packages.lz4
- 3f357350207a88523d82402c02e1f4b589d8429c8bec51b1a52d1eceb0f24b91            36652 Packages.lzma
- b57e218ac618d35cecdebc28c8937dc9d81c0e83e98d4bb8a4ffe90143e710b4            36696 Packages.xz
- 842316472d2c37e4fbf34f75ee7bd0c20b137bf7dca1901824f4543a51673ce9            36152 Packages.zst
- 0f4bab826ce8e9b1a3904c7081e81a13b84696c0508c4698d12211548cc40d3c              233 Release
+ d271fcc0ef58fdaee8574fb929d059df83313303a18e30bb76d4b62ffa178f1c           159450 Packages
+ dd94fa622414dc71d3e5e0a2dcfc95a81e8789a213042506c74947d6c41d2798            37322 Packages.bz2
+ 2a57d8c085fb94027a011cadd1344dc9a0e54651728258049f1fd0e99167daf1            43501 Packages.gz
+ 97985b2b81c25504697b0edc103a60ef1c0e1d6f448a209934075b095c376eef            59182 Packages.lz4
+ 676a512ae89eb215661d1ea4d91708aba720d635656117e943aeb05a257c8509            36651 Packages.lzma
+ 15df4bffd112761d6f0968f5e6ac9a369690754e74a92bfaca2e0b83160396f3            36696 Packages.xz
+ 76468563a3703c087ade55efcb33060fa373af6bd5c5ed0a081bcbe14026f953            36150 Packages.zst
+ 67653e22d0a050c92e4ea28b1dd80dbc3d86abc0e20ca4180cd6a9876faab76b              234 Release
 SHA512:
- 8253e78ee17a9dda191dee90f19fad4c86de86ce29a5bc23058b3316a8d62d4ae9c2ee65e4c7aa2b6c8ee8d5016ee752b086bbd08633242906a196b092aa68bf           159451 Packages
- 2d77df9a75835801f7ddbe5a7ac192342d9f66e9555b2059abc70ff1e1d45b1a164026f150ef35b17ac6438438af1982f3468341b420ecb36e314214d74ce234            37300 Packages.bz2
- 85fab3718a99550ffcc6b428e99e99f1198710b3669435be5bf6d39349e0dca104a8f196ca84a90470ed50571308f1e86ce7b3cc5afbe5aafa65a0f77569d1a7            43503 Packages.gz
- c4d19fdc5add572d51b3ae23ca08d44f04579a8bd21c3e7f4099196c81fd50dd348cdde5b5cd51b407fb2ca34b5ae8e90d5fa6a1ff234291d4e6e1d60642394b            59182 Packages.lz4
- e57700991de831a1fa9c2a5a85c6efa7955e1368edb554aa77c33e3c7f7002f4fd070fa1e84789986488782f0bed48eb8e873a8d50a392d6d71102559dc5ae66            36652 Packages.lzma
- 42c48b7d9f3ef8933363189675842a24b244445e747cf627030186a73fe258f64fd63eb5494c63ff66a8f2f946f3b2926aa414c05afbef84769043ba318e5a08            36696 Packages.xz
- 83390e659c5076bd5f68767b4c91420bf6b97a9a9ca80e5d06a963ca83281c970ff405451c3b8b106a8962cc9dfc81dae6da5b29135279965aa9eaecc91270ea            36152 Packages.zst
- b5b5da2fc5da10ff0a632f0b6de1949e309afd81ffe1d27086349005072dc116f81fd617f9bd73524e33ecafefda57425ae2bccb2c83122bf262b721122a56da              233 Release
+ 2084099a3a870511ac03378116562a93776429429a88db3498f5dcd936184b8fbea699deff496de66f196f786f0606992a1a42c2732142f46cf83b143743b478           159450 Packages
+ 409ad83000c2334bf6854822eb24b0afff549388edd0e9fc2bfe766c95cbf51166f712ad9adae475a2816a7034c56367d558ee22a3563c794cc26597d5a66944            37322 Packages.bz2
+ 78bb9b181735e8e433ba8693e63ce3dbbe21a76779f3e2701f7c2a39800cc5d4224f2ead39882e8ddaa507a798206a543227e0fdce22038075dc422724c10de3            43501 Packages.gz
+ 2d11f59017ef6688cd0477c9d12db6a12704c2246d08a78d1a49227e0bfb5637b2ba1bdbab873105ac4eec2634ccb0c3b061743133042cc57f8f2a437c0b2d37            59182 Packages.lz4
+ 31377b0a08870e7fcb29310c20e951d206d23f23860f91ff3484ddddf027747a4f40414007e8d10fc94e512629355cb24b0ac4e7c8fa0e68b877c76dcc5163a4            36651 Packages.lzma
+ 0910572371b337c9bf0c52796b05ca4d8c985986f8ff4de29f5b08a994e5f30d7242d2f5ea351f319d4d86fc9af8ef1c4efe9688662f175d11e7b2910da8e304            36696 Packages.xz
+ 33f62870329a30413a6eb504567a9056e055fae0300039bd9434e410761fcb2cce188be6386063a774ef7bf14927e35a73b71cf2e47a67dd80519914770639ae            36150 Packages.zst
+ 34db4692ab7759022eccee6eae06d84f3f0f67188f19a20c67fa9acff107e3bc10c5a99884b5af55220837f5c79645a55ff7c15763ba00e6cfecf83b2c45b634              234 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAmlXZCYACgkQnuK51HhM
-NoycnA//UOnJDTM4+WANB+6k254QvchYMfPSd3cl5I62TX8ynVKGyado4V2bPyC7
-D7Z3vBDZ7Ht3U/J1DZOLfXZYcJNqxu7n2KdaYalg+KETzD3L3O8ot+a0Gl4D8QpB
-HA+O9+AjUK/blux7dZuRo2uRXIQeW59d7/YW/kEuxHPvbFdOh6b+5Sx0jGYAcBed
-Mk08htIObuU7lL8BABKjfQys17n0zBmA9jydtbHslsmXZ4Bj3loP+pXPySiJfqqs
-s3CTLdTTvmy03BHt10FoRt6HbWdKGEcQaRN07MCkK4dGP2O+4frPxUOzTSY+LU4k
-/zxlSY5U4SSXXrTl2nKrpqyLgMz8Swz/RM7plqMgy6TmTf249SONAHDLjBDiVR4w
-+phnDOzvhkCYYVrewTF6b3wlkUo0QxEd5mR6grBIwgNCjkiUprhQm9EeXf+/24Tt
-R+OUtkq2SAmb4xwe/5byN0OezUPwuzD6BGW5Qm5ZQyYsqvIGmUnQKBJyAF/tkQsN
-a+NYBb5vTjwSb1wWrBDxKZ3Cwp3qJL9Ol//Pcall+dZnyQbcSs+VUwIBgYYlIEMn
-KP0qCeV39FiCCj0CsW6a9KO4SDFxZmMXILDEwDSoXM7yrB2pQMfR7oWQeqL07TwQ
-atR7EWSihevWkVE4TE/g/t4tAH0GOJmfyHeJptPgdz9XDN2mD9k=
-=cwOg
+iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAmlXrmQACgkQnuK51HhM
+NoxW8Q/+J8u7RhOJZe0XAvMv9GHwfhyH1ccyeFpb8NNHSU3jvsGu/3GEA8YscaK3
+PRkgM9Affnn8lrpyUXPOch4WAXBK5W/6ScutJWOBpDd07Pyutv9AHFO1ittpobeo
+ps/mUVXGRkHk1tdKbWBilM7udxOXT68jTR/CebkcJWr6Vdm60lS/5vaoJFDosK4B
+I1CNMd4CXQDpbYYymTnehgMuteESTHUag2+AxSW5Zb2uMPnttb8qGhBjoXN79UgK
+wC2jHzJjsNqYZHM6sijlufyHgLOTYtMJVLjXqsBG3A7sOP6jxHBwbcKmSy7Dr7vD
+ODArR8uB/zi3EItSPotfUVfm5yeOThKLdkYHjwHAgiILP1urqCIKAAa8guKvpYdZ
+86m3uGCBpiOk3yDASg3nqceS2KIReWV/ENyIseGezhTWK/IQ53X5/hRnGHMiphhT
+/GpBWWjCZeyzGAc9cB8xUsAr36spxUqC8b0LG3q0eGfB0rRoy8r5wmRU0NtR0L3s
+0iGpaZj7a+XDt65S0TSTO2wS5uMVyg8Kjm6ftB8pZIcVJHIPs3umILPY6jxoq7v/
+dIC4BlXR8UWeEJ6ugbVagSlIGiz54fOMjsDqZ1TXn/+fVWhFvionQGwUaF4fq3tt
+IvPD6ctNyVv2JSL4DDzYQaX66llrsDcri8YN2XTNG3mJUFzWB7s=
+=FXnw
 -----END PGP SIGNATURE-----

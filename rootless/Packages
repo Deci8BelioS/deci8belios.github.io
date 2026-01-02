@@ -3340,6 +3340,23 @@ Description: An awesome tweak for TikTok!
 Name: BHTikTok++
 Author: raul saeed
 
+Package: com.socuul.scinsta
+Architecture: iphoneos-arm64
+Version: 0.8.0-1+debug
+Section: Tweaks
+Maintainer: SoCuul
+Installed-Size: 6288
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./pool/iphoneos-arm64/com.socuul.scinsta_0.8.1_rootless.deb
+Size: 1470354
+MD5sum: 785f66829f762c58b26d2221d31dc0b7
+SHA1: 9a6e82a8b11431ef33ab60eae224ad965c7b0332
+SHA256: f04821f6d09d9281192fc7dad93b84dfdcbd02eb22f009973e0fb5e58cc6857c
+SHA512: 14c3a0f823f2fccb9e216c9be84abfe8feeb362e0fc3e512ad094194cfe4818a1ab529905ffbe28412546f6e69877d935d8816f75d2a880003d982dbd9480ec0
+Description: A feature-rich tweak for Instagram on iOS!
+Name: SCInsta
+Author: SoCuul
+
 Package: h.ryan.youtubereborn
 Architecture: iphoneos-arm64
 Version: 4.2.4
@@ -3599,5 +3616,4 @@ Description: An awesome tweak for TikTok!
 Name: BHTikTok Plus
 Author: dvntm
 Icon: https://i.imgur.com/PKIhkrt.png
-
 
