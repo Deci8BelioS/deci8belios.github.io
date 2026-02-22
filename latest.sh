@@ -43,7 +43,7 @@ repositories=(
     "dayanch96/BHTikTok-Plus"
     "khanhduytran0/TrollPad"
     "khanhduytran0/CAPerfHUD"
-    "whoeevee/EeveeSpotifyReborn"
+    "Meeep1/EeveeSpotifyRevivedPublic"
     "raulsaeed/BHTikTokPlusPlus"
     "arichornlover/YouTube-Reborn-v5"
     "SoCuul/SCInsta"
