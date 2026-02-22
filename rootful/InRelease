@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: ios
 Components: main
-Date: Sat, 21 Feb 2026 18:23:34 +0000
+Date: Sun, 22 Feb 2026 01:23:11 +0000
 Description: Repositorio de DeciBelioS para iOS
 Label: DeciBelioS - Rootful
 Origin: DeciBelioS
@@ -18,7 +18,7 @@ MD5Sum:
  9ecd52f094e8b9b94f42a49247dafc19            36651 Packages.lzma
  7eb8b03ffc74f59d3de8f9d17bb069b3            36696 Packages.xz
  f59cc6516a30062f5fa393447c28aa41            36150 Packages.zst
- 181833a61bf00baa77e2c9128cfca544              234 Release
+ ce1991fa5740dd5cbda2edea8baa02c8              234 Release
 SHA1:
  fee756b3750c5e1c45a544ae8b131d5244885d39           159450 Packages
  d7566de6be66fe2f7fa9c258f0cd2408c97abb27            37322 Packages.bz2
@@ -27,7 +27,7 @@ SHA1:
  95a37d4effe68c6be0291aa21686bcf4109d6c2b            36651 Packages.lzma
  ca322c8287c25573b5fd8efa8d439f0f635de611            36696 Packages.xz
  9f33dce3bd45e81d4f3ca8d601e365f73e8ba918            36150 Packages.zst
- 0eb8d3277f611ec286b64a805ee46a25b08e82e7              234 Release
+ dcaa5605c1a667a2c27154f7b8410b60d9013f1d              234 Release
 SHA256:
  d271fcc0ef58fdaee8574fb929d059df83313303a18e30bb76d4b62ffa178f1c           159450 Packages
  dd94fa622414dc71d3e5e0a2dcfc95a81e8789a213042506c74947d6c41d2798            37322 Packages.bz2
@@ -36,7 +36,7 @@ SHA256:
  676a512ae89eb215661d1ea4d91708aba720d635656117e943aeb05a257c8509            36651 Packages.lzma
  15df4bffd112761d6f0968f5e6ac9a369690754e74a92bfaca2e0b83160396f3            36696 Packages.xz
  76468563a3703c087ade55efcb33060fa373af6bd5c5ed0a081bcbe14026f953            36150 Packages.zst
- 4e147b3b5a74963bc24521a7a024cdccf3b33e0a63b23df57734a2f8576ab833              234 Release
+ 4d0df91e7b58d6d35b4d07e1f21e9ac3d50a418ee5f2c912dff51b685d68bb1a              234 Release
 SHA512:
  2084099a3a870511ac03378116562a93776429429a88db3498f5dcd936184b8fbea699deff496de66f196f786f0606992a1a42c2732142f46cf83b143743b478           159450 Packages
  409ad83000c2334bf6854822eb24b0afff549388edd0e9fc2bfe766c95cbf51166f712ad9adae475a2816a7034c56367d558ee22a3563c794cc26597d5a66944            37322 Packages.bz2
@@ -45,20 +45,20 @@ SHA512:
  31377b0a08870e7fcb29310c20e951d206d23f23860f91ff3484ddddf027747a4f40414007e8d10fc94e512629355cb24b0ac4e7c8fa0e68b877c76dcc5163a4            36651 Packages.lzma
  0910572371b337c9bf0c52796b05ca4d8c985986f8ff4de29f5b08a994e5f30d7242d2f5ea351f319d4d86fc9af8ef1c4efe9688662f175d11e7b2910da8e304            36696 Packages.xz
  33f62870329a30413a6eb504567a9056e055fae0300039bd9434e410761fcb2cce188be6386063a774ef7bf14927e35a73b71cf2e47a67dd80519914770639ae            36150 Packages.zst
- 4dd63eb1dbab87cda8b51ef91e0669cf40cb026751e7b3137b3982a7c79be6d45de02c4ee7962c39d6011c8b14256d5d18af939778a9bbd5e89c5ffb5bcbaf14              234 Release
+ 7e554cacf6a7f2c84852670382d032ba5566c27289cf206093ebf5c5337689e4f34e1d40d528ca5261121b55aa0fca8a39895879d7374359a4203d25e30d95d8              234 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAmmZ+CcACgkQnuK51HhM
-NoyE2RAAogjq1UXnIPLrVZNkHQWFx3xXszE+v3y6EJLRfXTcELbkIIQVrdSyW3Sa
-RqgepwYNcPDrus4aZBZwgNLlesFq8WUciTIVvL2UeeF695SbKNXBCiNraNatfw3j
-2hEygzqauTKvFrFld5nWC+s/yXPjgLzU1Wokj4G/YVeQDKJgJSjS3RBUcXGFUvp7
-6dxkzPzjtQSp2eqMTDAgGOYJSkXX9n+pxaAdet+g0d19lv8gObz5M1K4khNkD96/
-Pvzdak0gPDfQXbVstoYrrBaPZyvp6lnCHKtlNznb5RPfqs4nfsfu33B68wpMW0qE
-CyorL/w5QQwe5Hu47/6wUgsouK9rXBLWsN9BXSofg9ki68Xz1mRZFghkyHtnU7v6
-QghQ9Gvk2mLRiCLWECng9ZWfEY0jY4tjwuwIu/XdcvRBdbpCrgLhE8mRjF3mx4o8
-doVtG2K9nL3/vSWxfpxgBvvmISrwocMHNDKPx8U5VoaMkmXP2rNRdghNKSyXlvos
-Ml4WIwOSz2aXOSn2UJuMCJXtq12QuyNXkwL7403dcsc+vlb8TB7fRv1OzZLaJH3r
-kA1fgn7+GxBQghHba7ERvmJzP8phbbT/QQhAgFiYYcEHoM/TpDibg95mKguNaHAI
-W2qmx5eWlqe2tZ2cQmOh/1fY+NjeiWobm83dNyJNGLuSwPHdW2Y=
-=ml+4
+iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAmmaWoEACgkQnuK51HhM
+NowItQ/9EW9zAwmKaskaITmmo4IVpkmSsoyirZLcwPHCRhOykiYhx0b+z2fqGb3C
+RyLKUfHxAKDRnH+xwq/qUXq1tu0b5uJZx4dABaYOmd5EULSIaDpy3z1nRyM+TsRJ
+KT5j5e8EGCmSuAijZDZchjnjusEVIh8sWRnczFDAXbayCVaOSpa45LbFKBQPYFfr
+9t4cCluiVv6KUu/n+KJSYcY/5JfbAy0SkSiRLT78Lapn0d7bRF/eMMMX9qZ/SQzo
+nsS25jqqzwjHWOwU7/rFJm+6/bQ/xLqDvDvmQyAFD/3PQ1OBgJfllYuLkAsj9yU6
+3TByxHLAn/gghkWvNirssBVyAY7TEhBKEP8/k1PiN/eZmCpxXp++3p8bYx3XMHD0
+R/N68bykhQoQ5TjNA4ogiUJzmKLmaULEu2DAMU2CKdDdyAjCuWtaioLYy1JMYwdd
+i0Or5wv1eEW/B4pCnjmcXzManRnJwgOkwxzB3ZlFP0DMMxUJO0iTwsAW3WGpbBS8
+U1lWJoKrLm9hMXt8sY/GMQA3xDnqGKqi34UNXTBT5y2EWfNYtiRj1abaEHOiKpdv
+c/1Ljp81asrshqiXqYY0WEYEpbNX4/u9fMCv3wmAxOBzHoGpgL87JpiacsIjDcrd
+t0DUwRHWwk3ixSrzCH+6qgcDspHOVAtuAiECp2jPjT3DdmXT5b8=
+=3Vie
 -----END PGP SIGNATURE-----
