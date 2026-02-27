@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: ios
 Components: main
-Date: Fri, 27 Feb 2026 06:42:12 +0000
+Date: Fri, 27 Feb 2026 12:39:39 +0000
 Description: Repositorio de DeciBelioS para iOS
 Label: DeciBelioS - Main
 Origin: DeciBelioS
@@ -15,7 +15,7 @@ MD5Sum:
  9b5afe316300d3a141214616c026fa0d            69820 Packages.lzma
  125abba7dcaeda6e9086e9f4459ab88d            69876 Packages.xz
  6cf1c71d46b683491603b6d388abe17d            68635 Packages.zst
- 48838b8091d98e6d428daa3610529f2d              231 Release
+ 7e0176f592d9fd44ff66c1a68704dce8              231 Release
  67f65e1ccb8bf086d610277bec30fc5f           160922 rootful/Packages
  cf3c187e721bd488d1f268d52b0ac9ce            37571 rootful/Packages.bz2
  f31885d78d153b94a64e8c6c8ff30b57            43863 rootful/Packages.gz
@@ -38,7 +38,7 @@ SHA1:
  3863349abb74d3cdfe3b2fe8646c9c7fc664d9b4            69820 Packages.lzma
  dec80169d6bcc9da76c11d4caf0a171a0b02f184            69876 Packages.xz
  d4e4f75bd48d3b152bbae88dcdef33c3f60c6fe7            68635 Packages.zst
- 7b9bf0c1b4acb258e73577fb603de7a6299776fe              231 Release
+ c3b9b6484265b4eba3f74b2438b91a2aee8cfadb              231 Release
  393a49a3c49ab138b6a94b9bfb9d1a10445640b6           160922 rootful/Packages
  5c37522593de8eeebc14eb1f2e104753a6ced4a7            37571 rootful/Packages.bz2
  efc4c7b325a24682776ac3561e5b6a025703fb4b            43863 rootful/Packages.gz
@@ -61,7 +61,7 @@ SHA256:
  18fbd4a98f5559646bd5567a9a277cc7d68085207d260c85a6b5dca183ff655f            69820 Packages.lzma
  212a585608aca5c6984edfb7cd69748730534bbdbae939eec447b3033738126b            69876 Packages.xz
  4f39c7694b053689d22a7dd7babb77eb833ab81da963c3a825b1d1b9c20ccdea            68635 Packages.zst
- 9cce9e96e082c59f1a5da1e1b7f6ac16a07879df0f19e512ca7707e6cceae0ef              231 Release
+ 60f082b0b0711f3a05efe36e979582626c4dcc8c330598eda98aceb97acb6d4f              231 Release
  7986d489c5b4bad63fcb2fb61a5637df19923c27d413f0810b1450838dc17972           160922 rootful/Packages
  c479743e6a28ac1b4f2b8bd67513731369517fc898f7e3fe5739dce0e6515b59            37571 rootful/Packages.bz2
  224886eaf8537fd1abc908f1fee82d4111ad6fd456b50cb445bc7af2cc842272            43863 rootful/Packages.gz
@@ -84,7 +84,7 @@ SHA512:
  9d5ed00c94516127c28f41dba607cea895232de413d66bdeb017e2392a80091fb767431e02f4deceb641e3294878aa114f7f58e4329945b9b54ae92a4d9be6d9            69820 Packages.lzma
  caa340f4d69d557ce5fc58d9d90687d020841173eaef47614c2580940912dccdda2940d3bb4e63b60745c12592ecb0a91f3d3768717b68304ec44c06c31ecf5f            69876 Packages.xz
  8b5858af8efbada76dfd27bba6780357073ffd022ffc7670a41134c746a06364e97ed2fb89cf83468d2bea46b602bf234970bef5f6a76ac7109f70bcb7f95c6f            68635 Packages.zst
- e9994c8e43af603f2100637ccd08891585e14c1885dabcacb04ce995dcfcaa4a8ecca8a148bc1bf9fe97442ddbc7d073ebff9db743dcfd9d101b3a9c78780ce4              231 Release
+ e0a9e1932af9d91a3ade1a2a9695ad69a7a358b81e9120aa30628df1f8250bf7ec0511fce8427eec81a05d20911157f115b3983947d28c57e8fb2f8ce6d8f83e              231 Release
  8217e059a25cfb12d11503ca6915f8af4d1278a71bd7c4685fe84c1c5af0eefc62fc144c64cbf9546fab10c6399420cc995493ce4e0d08285ba062bbe8b1d221           160922 rootful/Packages
  8156b51f776447d1f9ee5c50dbfc3664472df430bda3e5c07818c35c57280d0aef8422f7c5a86e164bf4e48e414cccae07750624cd975650fd59c64e167d4266            37571 rootful/Packages.bz2
  753a6db878612c7d7db0d468c6e9697332b3b7da166e62d6f881ebf0c21b83560e2007c5a2281d8c4c3263ce4cea8583b9ead0f1069913193ac7591d7d1fd6c4            43863 rootful/Packages.gz
