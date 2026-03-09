@@ -2770,6 +2770,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 6.6.0-6+debug
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 16396
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_6.6.0_iphoneos-arm.deb
+Size: 2316612
+MD5sum: 79d38f43950d38784e2145dbaae80dc5
+SHA1: 6713b42d645db559de67d9ca9013e80ed3988b8d
+SHA256: 5532903e62067e68c29a40fc001a795dbb91d51dea640d7aeccf94b09b6d03e8
+SHA512: 81bcd6bb1785a4d4b3ed606789cbb8488dde0559fe854c5814b7621f49da3c7f61c85b8d3b63f29078bd615dfdd742bc857b8aa9c91c4a2c636131283c218f96
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -6313,6 +6330,23 @@ MD5sum: 04a8644df48c0b4e1dfb1d7712a8c945
 SHA1: 599ae8e1cc167dffc91b36c87c7823fe12a0bbfa
 SHA256: efb2ceae703b85061373633b867ba15a64d15cd13f8e30fbc45268afd49ecfd8
 SHA512: c6091edd6a20831723d30d410c1daf8a624becf54c6a236a5daf695cd42b433668e9ad0cb36d5293a57693858b74c2c61a723488b3034478bbdd6b947a2861c5
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 6.6.0-5+debug
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 16396
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_6.6.0_iphoneos-arm64.deb
+Size: 2316774
+MD5sum: 3603a84c70b1ac186fd1b91ea6d25425
+SHA1: 7d9c1b97539f244255e7dd81f50f7de89d98d238
+SHA256: 19107f6a8ad743c1050de47ef16ddbea8be4c076aa8979ce5abb939f9588f872
+SHA512: ed9a04f0e0e43c19f942f68ae90870e780056f9fc714a9e531c8f53f8701b397c512f74638e1717b72c90542346e578408e7922cb55deaddaf4564eae8b9a6ef
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
