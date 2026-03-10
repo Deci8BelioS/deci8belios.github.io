@@ -2787,6 +2787,23 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
 
+Package: com.eevee.spotify
+Architecture: iphoneos-arm
+Version: 6.6.1-20+debug
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 16432
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm/com.eevee.spotify_6.6.1_iphoneos-arm.deb
+Size: 2328168
+MD5sum: 3cf160bdee7cac852a976af595c7fdf0
+SHA1: 8dfdf250f5d0c12c7695a9c6f066c3597dd45bf4
+SHA256: e28e3742db2c84ab41b70b2d5ba9d0d811c38c47ab99c1ebffe401982315e8a8
+SHA512: 501c981c3f7812b4bdc2ea7ee565cd28b803fc28728a27de3b3e53fde9f38c65b308e76ea1abe770c4e14bacd9448ca0a579e95b6ec5da9813e4d3a240a8e39e
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
 Version: 1.3.1
@@ -6347,6 +6364,23 @@ MD5sum: 3603a84c70b1ac186fd1b91ea6d25425
 SHA1: 7d9c1b97539f244255e7dd81f50f7de89d98d238
 SHA256: 19107f6a8ad743c1050de47ef16ddbea8be4c076aa8979ce5abb939f9588f872
 SHA512: ed9a04f0e0e43c19f942f68ae90870e780056f9fc714a9e531c8f53f8701b397c512f74638e1717b72c90542346e578408e7922cb55deaddaf4564eae8b9a6ef
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Name: EeveeSpotify
+Author: Eevee
+
+Package: com.eevee.spotify
+Architecture: iphoneos-arm64
+Version: 6.6.1-19+debug
+Section: Tweaks
+Maintainer: Eevee
+Installed-Size: 16432
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./pool/iphoneos-arm64/com.eevee.spotify_6.6.1_iphoneos-arm64.deb
+Size: 2328300
+MD5sum: 2870e5fc1b74f3314d4a863bc5172d48
+SHA1: 0e0b6e998a1132178600998ea6772aac7361b922
+SHA256: e52d85bcec07233f76f3d5b69d0f40ab5a4e651bd1d9ae2f3acb3f8fe57aecef
+SHA512: ce1c23b85464e34dbcc94be56f0691411e99f099587de4c8ab003f0d45a588b447f2b866daed78098f6002696a2d2bb882c50b62f55a20bd45fafe4ab0a322aa
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Name: EeveeSpotify
 Author: Eevee
