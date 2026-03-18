@@ -3289,6 +3289,25 @@ Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
 
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
+Version: 2.4
+Section: Tweaks
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/com.ginsu.ytmusicultimate_2.4_iphoneos-arm.deb
+Size: 6573666
+MD5sum: b3673b441d5176840b74b86f19088237
+SHA1: b5a740d12a31e8277fee6a44bc322fbcf3ffbfc7
+SHA256: df1da12b3a217af4c02c3a32edc0313bc2b41cfb0ca7482b145f430bb01327e5
+SHA512: 1823395a8d557299e3da0d202718dad7af28e39de6012800e85befb5583e5f90ddc7f7683711f1e65c4dbe2ea9355d12400df956d477a6032e7774f302e696de
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
 Package: com.kdt.caperfhudmodule
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -6886,6 +6905,25 @@ Name: YTMusicUltimate
 Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm64
+Version: 2.4
+Section: Tweaks
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm64/com.ginsu.ytmusicultimate_2.4_iphoneos-arm64.deb
+Size: 6576970
+MD5sum: 1c27a77fef1de73f9360c79c528c74ec
+SHA1: d3905173e84befb29b569c74caa487effdf8588b
+SHA256: e7d2e6682ecd73ab8e3b6a0db0bb8dfe3fdd7a0e7d49bea10be9909736cbb923
+SHA512: 4af77f8effc1b615064984e90b09e367c6965b3d29064649fe73806557817f3df8ed17a45e7ea696e9f0b457df9f0d795b48001089ce3ba8dce2586009bd50e5
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
 Package: com.kdt.caperfhudmodule
 Architecture: iphoneos-arm64
