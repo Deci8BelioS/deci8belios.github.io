@@ -3291,6 +3291,25 @@ Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
 
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm
+Version: 2.4.1
+Section: Tweaks
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17932
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm.deb
+Size: 6576778
+MD5sum: c1a0a00cfc98361c7b61d312a09193e5
+SHA1: a567aa3d17eb35e562f1599ec27a320b235c3cd0
+SHA256: 692ca452d618d7664d0986ffdd04484a07524a5068eb0e0f21b813a4efa515a3
+SHA512: 6374bbdf8b5218ece0d24dbcf23b70ca5381087b15cb54ce55a9d4dae82dec1711511574df76100e7fb3b01a1f9509b23ceb8e2e148a05f0ff37baff6c68ed8d
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
 Version: 2.4
 Section: Tweaks
 Maintainer: dayanch96 & ginsu
@@ -6905,6 +6924,25 @@ Name: YTMusicUltimate
 Author: Ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/icon.png
 Depiction: https://ginsudev.github.io/repo/depictions/YTMusicUltimate/index.html
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm64
+Version: 2.4.1
+Section: Tweaks
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/iphoneos-arm64/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
+Size: 6566710
+MD5sum: 25acbe5dd2e0d161e88975b369c44725
+SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
+SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+SHA512: 7211f9dc889bb8a1ba40bb565e751243cd918060fe05a05cba9d5a98ec0900a0d70eea9edad0e9b777c41dddd3e424bda47366722254764a5bc3c8c1cfb0cc62
+Description: YouTube Music Premium
+Name: YTMusicUltimate
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
 Package: com.ginsu.ytmusicultimate
 Architecture: iphoneos-arm64
