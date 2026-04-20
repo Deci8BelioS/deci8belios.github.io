@@ -1693,6 +1693,25 @@ SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.dvntm.ytlite
 Architecture: iphoneos-arm
+Version: 5.2
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 20800
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.ytlite_5.2_iphoneos-arm.deb
+Size: 7434188
+MD5sum: 7ea40992c08df303c7b3f682e52fef88
+SHA1: 85242bbfaec63679575c40c694879b84e42eb765
+SHA256: cc48b87d76605b26e75414e2bc3d678b5f32f3c7bc57710754f29dc33b2fff9b
+SHA512: acb3a574303eff6d74e4c646426bdde81c91e2536c3ba2a59da27204a26042f23c812bb8d083bcd4c9fed38d39e4b51f9a67fe1f111549024a43b09bf2d20e44
+Description: Lightweight YouTube Enhancer
+Name: YTLite
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm
 Version: 5.2b1
 Section: Tweaks
 Maintainer: dvntm
@@ -5354,6 +5373,25 @@ MD5sum: e35f08aa8c4f5be01291059b892eeea6
 SHA1: 7a744a32a1c6ebb92f6e1cb0d108b20ea3d4a3fb
 SHA256: 8c1bc7bdae023d5f4e1dad9e371dba9ef6e107f63a7a71604dd30bcf1361db67
 SHA512: 81e06c7a8c3b29d7d454f4c464deb2db899821694a42836ef41b2d3a95f0b741e9b06f45a1138a61dc2f780376924c6d7944ed013db05a388ec292f757e8db40
+Description: Lightweight YouTube Enhancer
+Name: YTLite
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm64
+Version: 5.2
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 20800
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm64/com.dvntm.ytlite_5.2_iphoneos-arm64.deb
+Size: 7438534
+MD5sum: 688dfdbaf6b83bb50ed29a841d3bfeae
+SHA1: d99001a010d42db329b2bb3c3d41422ba51d1b8d
+SHA256: 4043e0723f87d68ae33b4c9026686cfd9a2a9eb3713864f5723420138dd507f3
+SHA512: 78935db6685626b4c04c9152fcea635dba4790e3d6bca4e8c4d9c9f445c028b241363d3781e19ab9fceb2fecc014ae8585406d4f5e2156666073a552f24bfdad
 Description: Lightweight YouTube Enhancer
 Name: YTLite
 Author: dvntm
