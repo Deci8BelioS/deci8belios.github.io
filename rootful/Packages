@@ -1693,6 +1693,25 @@ SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.dvntm.ytlite
 Architecture: iphoneos-arm
+Version: 5.2.1
+Section: Tweaks
+Maintainer: dvntm
+Installed-Size: 20816
+Depends: mobilesubstrate
+Filename: ./pool/iphoneos-arm/com.dvntm.ytlite_5.2.1_iphoneos-arm.deb
+Size: 7442136
+MD5sum: 6df00f26ed8b6998d4d3276f26b83992
+SHA1: 8a8fb16cf405610f530d2378aef677dffbc6294a
+SHA256: 1fd042db0084548e92c61965d7279cec28899bed71f502c3020a27bf24857713
+SHA512: cfac8baf86d1086e720ead9ce60665945e06da0f536b89875ab9b0542e04b764d2eb69d9619b3064dfc11db6e0c37fb7581c60a0bc696f609cdc18bee944997e
+Description: Lightweight YouTube Enhancer
+Name: YTLite
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Architecture: iphoneos-arm
 Version: 5.2
 Section: Tweaks
 Maintainer: dvntm
