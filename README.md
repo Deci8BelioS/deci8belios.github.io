@@ -13,3 +13,4 @@ Repository Sileo - Zebra of tweaks for iOS.
 * [Meeep1](https://github.com/Meeep1) - ([EeveeSpotifyRevivedPublic](https://github.com/Meeep1/EeveeSpotifyRevivedPublic))
 * [raulsaeed](https://github.com/raulsaeed) - ([BHTikTokPlusPlus](https://github.com/raulsaeed/BHTikTokPlusPlus))
 * [SoCuul](https://github.com/SoCuul) - ([SCInsta](https://github.com/SoCuul/SCInsta))
+* [faroukbmiled](https://github.com/faroukbmiled) - ([RyukGram](https://github.com/faroukbmiled/RyukGram))
