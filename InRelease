@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: ios
 Components: main
-Date: Sat, 09 May 2026 12:58:27 +0000
+Date: Sat, 09 May 2026 18:48:53 +0000
 Description: Repositorio de DeciBelioS para iOS
 Label: DeciBelioS - Main
 Origin: DeciBelioS
@@ -18,7 +18,7 @@ MD5Sum:
  a44a613b38047ed4809406a70148ed18            73393 Packages.lzma
  07704ae118778616a743903ff96fe05c            73448 Packages.xz
  087dc5b26bc86f290f71079d389bf506            72118 Packages.zst
- 7613f0fd80ac9d5d50ff029abde74ccb              231 Release
+ 3e8ffce3a4ebc7ec527f0a29448c5a43              231 Release
  efe84bef5498e80459189189481135e3           167564 rootful/Packages
  2f7ae81b9bde75614f981f816669129f            39045 rootful/Packages.bz2
  476ffbb27a4a606ee6ccc504b3d97a81            45626 rootful/Packages.gz
@@ -41,7 +41,7 @@ SHA1:
  5393756aa63d091a61e838351e5b6db9173c0259            73393 Packages.lzma
  e2b196d622811ebef32d4d2c237be1f5453b2767            73448 Packages.xz
  27237d87745c87df85d8bff0865eee05390af715            72118 Packages.zst
- cb1b688aea72c9d077bac87d9b36a24b7df5b7a1              231 Release
+ 4003a463c1cfe122aff53ca65bcb117ab742802d              231 Release
  a38dfae8c92cf767bfff42380240666462db951f           167564 rootful/Packages
  0a1c9e888790c829a1e141fa0b9ffaf19c163482            39045 rootful/Packages.bz2
  93ce41308cb9cdb3337368223e729193fc215747            45626 rootful/Packages.gz
@@ -64,7 +64,7 @@ SHA256:
  755b0fe3e90a2d6f04e4968ae9e1c5f25ec7bfba03f9e0344665aec343b428e4            73393 Packages.lzma
  0468df76b7e1ed4bad8e455e64ec9e1ee401b97c84f8251e541b9768754114c0            73448 Packages.xz
  637956ccdbd9c911c156e249620ac89842947c72e43e23b1ea082a649c34108d            72118 Packages.zst
- 57ef78eedf9d6008d111facdcb25283b7a9a9af1d94e2f3b815fc85831c26109              231 Release
+ 09143bdcbae7988bd9a14e2cda3817e1deb38e9adced3a1835896fb4701ae35e              231 Release
  75d6fed1b21848b39803af17225c372e5edd480c36eab9d6572549dd2206fcf3           167564 rootful/Packages
  1d976154e3f6d20f5630bf44146f7b18f83767e3276491bef2e2b9fdafa1655b            39045 rootful/Packages.bz2
  3130ecc3b8ad3ffeb919bc230a3a889ab1883b585cf02af2db0bdb35c70a515f            45626 rootful/Packages.gz
@@ -87,7 +87,7 @@ SHA512:
  826844618ea763aa80ba0e6793051b61f1349ce2c8c48c7babc7d66d055ddede49b24574622d133e0915a1cc8cbd4fa628ab23a05a79242a9e610ed9c74ba24d            73393 Packages.lzma
  c5d4ac7efcd48cd26a6adce1ed817289cb31418bbbc736411ebb42095a146bdeb8712fe5f47ad7896be27d97ce97f9ec18209fe5b1ceb73f1cc68868488238e7            73448 Packages.xz
  fb4692560fe440172ee1b05a1e6574394313ac7291b8caaf24e60949406df184ca26bdb24b53a7de37e612ed150ed3f75f86acce893942693ecfea827e8de769            72118 Packages.zst
- bc48f19a353d878f628e7c4e5441cdf09b06a1db467f6c6bf3b421e8895157f9b822c82c7bc6adf1f4eac26713860edb30baaa131292b5dd37e79006e50e239a              231 Release
+ 7f47cdb0fb120386ecdeadf514ea05d355b5851510e9578bdb5f6b56f88cee3ac16a7007c9a9f6b77f7e5c6e8e02dc23ba811bcfca5e95ca2c2a31fe87828345              231 Release
  86b59e9bde9ce299ebf7570980969bdca41e8fa914bd979c1036ae73350a456767d45360a53ff12780aa16e4da6784803a3d7f1b8154c7f54694a8fa9939ee1e           167564 rootful/Packages
  4d215d56cd77dd1b3ceecce5af2d2dd505914649e770b1949389509382e5e269b79306d94a4cc2d8aacdb76c9c21dde70f141441cbdf4ec61d13a56b3467bd51            39045 rootful/Packages.bz2
  92bb919121c4f13c62a2230fdea5903fa8917ff9df011ec9f99687998c2c9ab063393a7339908ed4d94954ae8fbea63a2f2cfa0c3331944238e9168fb626ecd5            45626 rootful/Packages.gz
@@ -104,17 +104,17 @@ SHA512:
  ed25878cb1308f3bea22196b6275f95fc4df78b7926858ee3a90ac5a4df724354a7ff5b944ff38fcb2dfdefbc2761f325e637c0be3ed6198bb7bd3194db5f53e            36524 rootless/Packages.zst
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAmn/L3QACgkQnuK51HhM
-Now1kA/9G0F9ol9etQrwmTj37gOrlcXk99cZsoJ0/5rx1BwFeoVjyLL88Ff6qBv1
-iONENP0a/59sYIVFB6NVsdCeSoaEtWlZBC6WOmWbXgpFN0lrfWI2DKnAprq7w1Sx
-42zjsF/CRwv4XKEqoHfnHHfoFpdDMRd8PKsvfdhhVTbpSJj0kSS0o6OkIytAWjHd
-R87NSh7cZuGskMQeYNx9ENIU0E052/3tmJp1bhdoc6DmKZQb7VZBwZsbIx0mazY5
-273o4HW4FiMQifvvt8lqd1x47031bl6Vxu1iC//c3MsTdl5timKIrGhkl9PpvR5t
-nCkZ/CP1NcfHMBh/Pcyir7IpTBh3kc6C11JF5emc0sDAxCvSsT45fe77QYEB2b8l
-8T30+m+bEyXzcaPc+PBFWEuhlQzzjRrWmOyYdtD0Cq/lHRpKZnv6nd06X8LAqNdj
-A9C4m7hxNmYq1gQC8/Mtcw9h6ekriDGXFdEuvxJHKEzWuCKIaCp4vic0+45qWbVJ
-sN0zTF3GMmkMIjkzxMzSYL2in2fvK4H6d7wSX8Y+ajhvPQUwXboAr9AEdNK3r4Go
-A2XtwtnZcHN+bxN6b6mJz2bMeK/q9JSs0Cf+ickDRj3IhP0+0LqeSoi4CnMh7NnX
-J+EHdHIT5jUW6175MJ7BXSqTxu4grkbg27GSubu/yxNnkc7BSQc=
-=Z2cV
+iQIzBAEBCgAdFiEE1fHu2hn62Wfk4dZCnuK51HhMNowFAmn/gZYACgkQnuK51HhM
+NoxyxQ//cD/WCAg8MyfypGL/Ji7fTj7CEgNofVN/kmt6WDXL1gNQ6uwsb4uC8OkS
+jsGB0MjMPJENdETVwp7uLtGbWTG0YpMW6odM+Vvma7pqn9HiXEieNGhhQlF1VMIN
+dYlkMkScdlyIZP8rH+Bi6uyi1/LZEdZNCSwLNLbzFeUuKwLX7jN1lcY5IH5lV7fs
+rsIUmUtcwK8x7C/y7XyEeELC7qiXTUd5f31WEmABKrr892nxPgenlscepxqoCkU2
+OaMBXtLkGtFykigC6pRHTtYxn1+rmcpomJRX/8Bx+Rawwjyi29scBBFVXwd9BuLW
+LwRbGDywkW+QBTLdKTkyeU+6ZYftDTJEARHXM2Ewl2SDgrJgLDPkUJbGue0J65pp
+hJ7gxpJYP0Gg/0JAxQ8o+EbGvviFSfgux1lRJoYLlSSXlEsLgLrT5vuu5Gki1GE4
+hWoNpbZ5uBs0th7QFLc6FEevmhzp5jMGBqPIEGQR05YznejLWXjTxm7LW7dWjfUC
+8tTBxvA93KYfqAxQ9YDNdxrTj2bHgD+ScPDdSY72mLpTBnJ/wsgzZNuRVE2KCyYO
+KIiWaTzQoqYkcTMJuAY68Z3GB5gQySh2LTLT8x6nNEsyAiPxKcPk4R1gsxGTdedU
+NjtRM9E/DegULvjTTRqezNyeRyAoCbfBOLmFCNC5gYDkPRoXSZw=
+=NnT1
 -----END PGP SIGNATURE-----
