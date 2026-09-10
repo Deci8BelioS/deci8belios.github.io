@@ -205,6 +205,46 @@ Description: A feature-rich enhancement suite for Instagram on iOS
 Name: RyukGram
 Author: Ryuk
 
+Package: com.faroukbmiled.ryukgram
+Architecture: iphoneos-arm
+Version: 1.4.0
+Section: Tweaks
+Maintainer: Ryuk
+Installed-Size: 5792
+Depends: mobilesubstrate
+Conflicts: com.faroukbmiled.ryukgram.legacy, com.socuul.scinsta
+Replaces: com.faroukbmiled.ryukgram.legacy, com.socuul.scinsta
+Filename: ./pool/iphoneos-arm64/RyukGram_1.4.0_IG446.0.0_rootful.deb
+Size: 17723688
+MD5sum: 41275200b88aa8863c62bdf1cbd1dda0
+SHA1: 48f4301caf73bdc697fe28f77b7fc01da6d1c79b
+SHA256: fb837925b55d1bd93870eca9fba4c1e6d5fc98915d16b833e64d7eb2053fcfe0
+SHA512: 5b4be5faa365c21764b502021b4868a33ba032480994c32fc182f090e0ca189d7087a58d50453d44b07c20a0814e54f38a9aaeb5f4f70a8f5acd18f3b013f6a6
+Homepage: https://github.com/faroukbmiled/RyukGram
+Description: A feature-rich enhancement suite for Instagram on iOS
+Name: RyukGram
+Author: Ryuk
+
+Package: com.faroukbmiled.ryukgram
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Section: Tweaks
+Maintainer: Ryuk
+Installed-Size: 5792
+Depends: mobilesubstrate
+Conflicts: com.faroukbmiled.ryukgram.legacy, com.socuul.scinsta
+Replaces: com.faroukbmiled.ryukgram.legacy, com.socuul.scinsta
+Filename: ./pool/iphoneos-arm64/RyukGram_1.4.0_IG446.0.0_rootless.deb
+Size: 17728196
+MD5sum: 6818f7cfe77d81a1a7b06444916b5353
+SHA1: 6eaa92742cbf459f534ad5dc263105bd98252f2b
+SHA256: 1e79d77262facf09ca0b2e57d9cd09daa8f3158d761d494c93d8afc14f06a3e8
+SHA512: aa528651cd7763a015e6305b2b3deed759f58840bc7d2ce31fd3a571c7c705ac3b6362905d894d6e52e6726dde4f0d8d7d435841d6108422f70661bb31e42e8d
+Homepage: https://github.com/faroukbmiled/RyukGram
+Description: A feature-rich enhancement suite for Instagram on iOS
+Name: RyukGram
+Author: Ryuk
+
 Package: ch.xxtou.hudapp.jb
 Architecture: iphoneos-arm64
 Version: 1.12.0
