@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: ios
 Components: main
-Date: Thu, 12 Nov 2026 14:22:24 +0000
+Date: Thu, 12 Nov 2026 23:01:42 +0000
 Description: Repositorio de DeciBelioS para iOS
 Label: DeciBelioS - Rootless
 Origin: DeciBelioS
@@ -13,33 +13,33 @@ MD5Sum:
  522c53f27d6f9c8c1af860337b140b0f            47844 Packages.gz
  ca83e8f6c6bf00e91424981c728c08ec            64761 Packages.lz4
  082455f86360e858e8ab5efa0cf914a3            40191 Packages.lzma
- 873e88b69249acf128c5a43154337dab            40236 Packages.xz
+ 22d899cc70a0745dc1a2a00a3559ae9f            40244 Packages.xz
  25ac6abd3286122aa136f3828e79b36a            39588 Packages.zst
- 5ced1e4f1880e41cc0deeebe44250121              235 Release
+ 538aedde3e21961ef5a890497b5c85b9              235 Release
 SHA1:
  f37a11d9b1447f54066f770ea1efb718d531fa11           177107 Packages
  c5837d3e4fc02ae557ec6188651ba0cf176346f2            40870 Packages.bz2
  c5f6dcd52b2338721b6dc67cd2cad77c079467fa            47844 Packages.gz
  71b488cc6fad6cbcb454e24f332307aea54f4b8f            64761 Packages.lz4
  d122d922df97014e59a8a8e6d34219b8cb5a463e            40191 Packages.lzma
- 2365f1e48621b6ea9d29f0be0c822b25fa444b0b            40236 Packages.xz
+ 416f773890119262f8a7b17b566ddc9ed0a6e32c            40244 Packages.xz
  07d445fd00a539f1f2e27262750c9b66e25065e2            39588 Packages.zst
- 4051dd257e4b1d2bed44ff761ae3bd17dbe15866              235 Release
+ 751fa4ce5c8b934080c6955789ae3e2fb6406b55              235 Release
 SHA256:
  76c2d993647d07220538c8152474da9ee8c48fe647e79fafe0f2ee19bdb9e3ab           177107 Packages
  6849e044b4c1e944bff9a742bc964efda2d3fe1a189e5416a0331ca20d909ed1            40870 Packages.bz2
  875402ac77e225d166c3a692de5a2a0823c035d20ae4e8f959a86da3916b74be            47844 Packages.gz
  905837306835feee113a6ab9e5ddf1bf6cb767316ad5abda4dca646a8221537a            64761 Packages.lz4
  81e672dbcfee9c9deb3761ca632ee29c9d948de90142516631b71f25a1db4ac3            40191 Packages.lzma
- 903fc3b880c160fc05cffc4d48c4098ef79266f90977f34583cf67c56ad498cb            40236 Packages.xz
+ dc1ac57dacad66ac4514bba1227dfcda021b9c93be36544f7bd3b384c258da0c            40244 Packages.xz
  5e55098126c2a40e8ae38e7bab174ed4951f881b229b93f707cc60303f87e841            39588 Packages.zst
- 134fc51fd21ea5c3835bd2318a3db3848d8cc5038be43f2e1c62d3e7de1710da              235 Release
+ 6fee38c0d1a430ab22b188621d59206d8c9a20807e0102ce696024f54508ad4e              235 Release
 SHA512:
  a3f5ec8da37c53ae3ce13d2285a1c900e1496bdf2f8d0864c7abe09d9c08778625e341ab5bf78833af028b7271843f01f47bd88dc7eae7dbc2ab7dee7fdc1d0b           177107 Packages
  b14f9139a46d1fa33718b528e3e28273762f2f7b8dfdfbe30ff1a58bac281980db69ee8c64e1ff6e1154e11a355271cc8d9d412165c42d63082b7441ed19a314            40870 Packages.bz2
  efd5e92d6ce94577911364c4f31f844a8e70fff85d8cda737f11248c4e1eabd5eb7b52e191c2b3fda25fd95deb110bdf3c6c18e0faf2fe56bd401dabed730ecc            47844 Packages.gz
  de242ec99ba318b453c4e3078bd1741b732b2b39742b22798422e1fc2e0d7aa7f80b8ca0a18fed75c364d7db99ac0ecb06a8149467377d9cbce6e576bfb79092            64761 Packages.lz4
  93f7931e5246c285694294af250fd5daf05fbb5f77e7036dd5e8303d1a774cb7903b68c6d26a8356240a3a0837e640a4801c7aebd96f7e4439094c78fa39d64a            40191 Packages.lzma
- ad9b3b791f83e6f69da972eecb36a561acc935ef024d661039201ef690dec3b1a76b93059b22dd40b80b40f3a3acfa59a239b0389e7bdbbd9f53533b3716dc23            40236 Packages.xz
+ d8646b36356a78ca268a9488cb8d5ef73e31657db783c9d8e7afec02533c9b2a5c8a8aa5c8fabf296ad5a7f12b982cc29f3edfe7d20e31a54ef274ef97f7e696            40244 Packages.xz
  d1fb328b7efb72fcdff1d30cb4d62ae28b4f877618669ad3e626fbb0ce37c67bae16af876be91e87fa90bd39ca6e35a6290fcaf9f54d401128d98aad839a22f9            39588 Packages.zst
- ae9f7bef9cd7177fdbddfad0967922a65741a8f8a7e8ca532d2f839dcc18a4690dd193240819616a2d4de24dfac928a66f3c1a9e56207362ede032888a670c49              235 Release
+ 215dbb0ed0a55f58d913ffdec6577b1341b7091e155c7256542f303c87083936e4fa79c8860f83a229e146367f7c3073f17d58b028d62763678577fe947395af              235 Release
